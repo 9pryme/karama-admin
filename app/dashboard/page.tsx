@@ -91,7 +91,7 @@ export default function DashboardPage() {
               changeType="increase"
             />
             <MetricCard 
-              title="Active Users" 
+              title="All Users" 
               value={isLoadingUsers ? "..." : metrics.activeUsers.toString()} 
               change={metrics.activeGrowth}
               changeType="increase"
