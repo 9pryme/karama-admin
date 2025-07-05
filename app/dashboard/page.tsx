@@ -10,22 +10,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { DashboardSkeleton } from "@/components/ui/skeleton-loader";
 import NyraLoading from "@/components/ui/nyra-loading";
-
-// Mock childcare data
-const mockChildcareData = {
-  totalFamilies: 0,
-  totalCaregivers: 0,
-  activeCare: 0,
-  todayMatches: 0,
-  todayBookings: 0,
-  familyGrowth: 0,
-  caregiverGrowth: 0,
-  matchGrowth: 0,
-  matches: 0
-};
+import { useUsers } from "@/hooks/use-users";
 
 export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
+  const { data: users, isLoading: isLoadingUsers } = useUsers();
 
   useEffect(() => {
     // Simulate loading time for smooth transition
@@ -35,6 +24,30 @@ export default function DashboardPage() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  // Calculate metrics from real user data
+  const metrics = users ? {
+    totalFamilies: users.families.length,
+    totalCaregivers: users.caregivers.length,
+    totalNewUsers: users.newUsers.length,
+    totalUsers: users.families.length + users.caregivers.length + users.newUsers.length,
+    activeUsers: [...users.families, ...users.caregivers, ...users.newUsers].filter(user => user.activity_status === "ACTIVE").length,
+    // For growth metrics, we'll set to 0 since we don't have historical data
+    familyGrowth: 0,
+    caregiverGrowth: 0,
+    newUserGrowth: 0,
+    activeGrowth: 0
+  } : {
+    totalFamilies: 0,
+    totalCaregivers: 0,
+    totalNewUsers: 0,
+    totalUsers: 0,
+    activeUsers: 0,
+    familyGrowth: 0,
+    caregiverGrowth: 0,
+    newUserGrowth: 0,
+    activeGrowth: 0
+  };
 
   if (loading) {
     return <NyraLoading size="lg" className="min-h-[60vh]" />;
@@ -61,26 +74,26 @@ export default function DashboardPage() {
           >
             <MetricCard 
               title="Total Families" 
-              value={mockChildcareData.totalFamilies.toLocaleString()} 
-              change={mockChildcareData.familyGrowth}
+              value={isLoadingUsers ? "..." : metrics.totalFamilies.toLocaleString()} 
+              change={metrics.familyGrowth}
               changeType="increase"
             />
             <MetricCard 
               title="Active Caregivers" 
-              value={mockChildcareData.totalCaregivers.toLocaleString()} 
-              change={mockChildcareData.caregiverGrowth}
+              value={isLoadingUsers ? "..." : metrics.totalCaregivers.toLocaleString()} 
+              change={metrics.caregiverGrowth}
               changeType="increase"
             />
             <MetricCard 
-              title="Families Being Cared" 
-              value={mockChildcareData.activeCare.toString()} 
-              change={mockChildcareData.matchGrowth}
+              title="New Users" 
+              value={isLoadingUsers ? "..." : metrics.totalNewUsers.toString()} 
+              change={metrics.newUserGrowth}
               changeType="increase"
             />
             <MetricCard 
-              title="Today's Matches" 
-              value={mockChildcareData.todayBookings.toString()} 
-              change={mockChildcareData.bookingGrowth}
+              title="Active Users" 
+              value={isLoadingUsers ? "..." : metrics.activeUsers.toString()} 
+              change={metrics.activeGrowth}
               changeType="increase"
             />
           </motion.div>
