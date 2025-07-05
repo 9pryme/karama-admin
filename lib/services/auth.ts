@@ -1,31 +1,21 @@
 import axios, { AxiosError } from 'axios';
 import Cookies from 'js-cookie';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.usemelon.co/api/v1';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+if (!API_URL) {
+  throw new Error('NEXT_PUBLIC_API_URL environment variable is not set');
+}
 
 export interface LoginCredentials {
-  field: string;
+  email: string;
   password: string;
 }
 
 export interface User {
-  created_at: string;
-  updated_at: string;
-  _v: number;
-  user_id: string;
+  // Add user properties here when available from API response
   email: string;
-  phone_number: string;
-  username: string;
-  firstname: string;
-  middlename: string;
-  lastname: string;
-  connection_type: number;
-  role: string;
-  active_status: string;
-  email_verified: boolean;
-  phone_verified: boolean;
-  last_login: string | null;
-  account_tier: number;
+  // Add other user fields as needed
 }
 
 export interface LoginResponse {
@@ -33,25 +23,33 @@ export interface LoginResponse {
   status: string;
   success: boolean;
   error: string;
-  token: string;
-  user: User;
-  message: string;
+  data: {
+    token: string;
+  };
 }
 
 export const authService = {
   async login(credentials: LoginCredentials): Promise<LoginResponse> {
     try {
-      const response = await axios.post<LoginResponse>(`${API_URL}/auth/signin`, credentials);
+      const url = `${API_URL}/admin/auth/login`;
+      console.log('Making request to:', url); // Debug log
+      
+      const response = await axios.post<LoginResponse>(url, credentials, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
       
       // Store token in cookie
-      Cookies.set('token', response.data.token, {
+      Cookies.set('token', response.data.data.token, {
         expires: 7, // 7 days
         secure: process.env.NODE_ENV === 'production',
         sameSite: 'strict'
       });
       
-      // Store user data in cookie
-      Cookies.set('user', JSON.stringify(response.data.user), {
+      // Store user data in cookie (using email for now)
+      const userData = { email: credentials.email };
+      Cookies.set('user', JSON.stringify(userData), {
         expires: 7,
         secure: process.env.NODE_ENV === 'production',
         sameSite: 'strict'
@@ -59,9 +57,11 @@ export const authService = {
       
       return response.data;
     } catch (error) {
+      console.error('Login error:', error); // Debug log
       if (axios.isAxiosError(error)) {
-        const axiosError = error as AxiosError<{ message: string }>;
-        throw new Error(axiosError.response?.data?.message || 'Login failed');
+        const axiosError = error as AxiosError<{ message: string; error: string }>;
+        console.error('Response data:', axiosError.response?.data); // Debug log
+        throw new Error(axiosError.response?.data?.message || axiosError.response?.data?.error || 'Login failed');
       }
       throw new Error('An unexpected error occurred');
     }

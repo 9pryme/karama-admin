@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { dashboardCache, walletCache, transactionCache } from "@/lib/cache";
 
 interface TopBarProps {
   onMobileMenuClick: () => void;
@@ -24,12 +23,7 @@ interface TopBarProps {
 
 export default function TopBar({ onMobileMenuClick, className }: TopBarProps) {
   const handleRefresh = () => {
-    // Clear all caches to force fresh data
-    dashboardCache.clear();
-    walletCache.clear();
-    transactionCache.clear();
-    
-    // Reload the page
+    // Simple page reload for dummy data
     window.location.reload();
   };
 
@@ -49,7 +43,7 @@ export default function TopBar({ onMobileMenuClick, className }: TopBarProps) {
           
           {/* Mobile logo - only show on mobile when sidebar is hidden */}
           <span className="lg:hidden font-clash font-bold text-lg text-foreground">
-            Nyra
+            Karama
           </span>
         </div>
         
@@ -58,7 +52,7 @@ export default function TopBar({ onMobileMenuClick, className }: TopBarProps) {
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
             type="search"
-            placeholder="Search anything..."
+            placeholder="Search families, caregivers..."
             className="w-full pl-9 bg-muted/40 border-none"
           />
         </div>
@@ -91,19 +85,35 @@ export default function TopBar({ onMobileMenuClick, className }: TopBarProps) {
             <DropdownMenuLabel>Notifications</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <div className="max-h-96 overflow-auto">
-              {[1, 2, 3].map((i) => (
+              {[
+                {
+                  title: "New caregiver match",
+                  description: "Sarah Miller matched with Johnson Family for weekend care.",
+                  time: "2 hours ago"
+                },
+                {
+                  title: "Care session completed",
+                  description: "Emma Wilson completed 4-hour care session with Davis Family.",
+                  time: "4 hours ago"
+                },
+                {
+                  title: "New family registration",
+                  description: "Brown Family joined Karama Care and needs a caregiver.",
+                  time: "6 hours ago"
+                }
+              ].map((notification, i) => (
                 <DropdownMenuItem key={i} className="cursor-pointer py-3">
                   <div className="flex gap-4">
                     <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                       <Bell className="h-4 w-4 text-primary" />
                     </div>
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Transaction completed</p>
+                      <p className="text-sm font-medium">{notification.title}</p>
                       <p className="text-xs text-muted-foreground">
-                        Your transfer of ₦25,000 to Alex Johnson was successful.
+                        {notification.description}
                       </p>
                       <p className="text-xs text-muted-foreground">
-                        2 hours ago
+                        {notification.time}
                       </p>
                     </div>
                   </div>
@@ -118,8 +128,8 @@ export default function TopBar({ onMobileMenuClick, className }: TopBarProps) {
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="relative h-8 w-8 rounded-full p-0">
               <Avatar className="h-8 w-8">
-                <AvatarImage src="/placeholder-avatar.jpg" alt="Maryam Mahmud" />
-                <AvatarFallback className="text-xs">MM</AvatarFallback>
+                <AvatarImage src="/placeholder-avatar.jpg" alt="Admin User" />
+                <AvatarFallback className="text-xs">AU</AvatarFallback>
               </Avatar>
             </Button>
           </DropdownMenuTrigger>

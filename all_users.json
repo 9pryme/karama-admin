@@ -1,0 +1,3138 @@
+[
+  {
+    "created_at": "2025-07-04T22:27:18.024Z",
+    "updated_at": "2025-07-04T22:27:18.243Z",
+    "_v": 3,
+    "user_id": "USER-01JZBRT6C1KBPNP7KP9Z723MRH",
+    "phone_number": "+19294877774",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T22:27:18.095Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T20:54:38.257Z",
+    "updated_at": "2025-07-04T20:54:38.331Z",
+    "_v": 3,
+    "user_id": "USER-01JZBKGGX9VYW9JRH5ZQS5ZAQP",
+    "phone_number": "+18573398627",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T20:54:38.284Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T20:52:42.940Z",
+    "updated_at": "2025-07-04T22:09:12.245Z",
+    "_v": 9,
+    "user_id": "USER-01JZBKD09KZTN5E1WE15JMRGBA",
+    "phone_number": "+19178472988",
+    "email": null,
+    "role": "CAREGIVER",
+    "access_level": "USER",
+    "name": "Navi",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T22:09:12.162Z",
+    "settings": {
+      "show_age": true,
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": null,
+    "caregiver_profile": {
+      "created_at": "2025-07-04T20:57:15.910Z",
+      "updated_at": "2025-07-04T21:02:11.385Z",
+      "_v": 9,
+      "id": "CAREGIVER_PROFILE-01JZBKNAW4BY0ZQV7R182XTWE7",
+      "name": "Navi",
+      "date_of_birth": "1990-01-25",
+      "gender": "Cisgender Female",
+      "pronouns": "👱‍♀️ She/Her",
+      "aquisition_source": "Facebook",
+      "zipcode": "11212",
+      "latitude": 40.6625,
+      "longitude": -73.9145,
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -73.9145,
+          40.6625
+        ]
+      },
+      "location": "Brooklyn, New York",
+      "caregiver_type": "👩🏽‍🍼 Nanny",
+      "years_of_experience": "11-20 years",
+      "education_level": "🎓 High School",
+      "show_edu_level_on_profile": false,
+      "ages_best_with": [
+        "🧸 Toddler",
+        "🖍️ Pre Schooler"
+      ],
+      "children_capacity": 2,
+      "childcare_philosophies": [
+        "🌈 Montessori",
+        "🌈 Waldorf/ Steiner",
+        "🌈 Other"
+      ],
+      "other_philosohies": null,
+      "availability": [
+        "Part Time",
+        "After school Pickup"
+      ],
+      "arrangement_type": "⏰ Live Out",
+      "required_benfits": [
+        "💰 Yearly Bonus",
+        "🏖 Paid Time Off",
+        "🚗 Mileage Reimbursement",
+        "🤑 Retirement Account"
+      ],
+      "other_required_benefits": null,
+      "rejected_families": [
+        "FAMILY_PROFILE-01JZ3JTRVQ3PNEJ86WKSW6HPFZ",
+        "FAMILY_PROFILE-01JZ69DMG5M7YVBM4Z52S9K5NK",
+        "FAMILY_PROFILE-01JZ3GNBDDYDFV4D5WPYCQKXVV"
+      ],
+      "liked_families": [
+        "FAMILY_PROFILE-01JZ5NM5JSH93WZAX5FGE52REF"
+      ],
+      "blocked_families": [],
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.9039874882822434,
+      "abilities_and_certifications": {
+        "id": "CAREGIVER_ABILITIES-01JZBKNBDZECNDBVDFCSX7GTCE",
+        "abilities": [
+          "🚗 Able To Drive",
+          "✈️ Can Travel",
+          "🏊 Can Swim"
+        ],
+        "other_ability": "",
+        "certifications": [],
+        "other_certification": ""
+      },
+      "language": {
+        "id": "CAREGIVER_LANGUAGE-01JZBKNB9GX7C2XA95QCSVH4RP",
+        "languages": [
+          "English"
+        ],
+        "other": "",
+        "requires_same_language_family": true
+      },
+      "experience_with_disabilities": {
+        "id": "CAREGIVER_DISABILITIES_EXPERIENCE-01JZBKNBE7MY5RMQQKFQSMEJ92",
+        "disabilities": [
+          "ADHD",
+          "Down Syndrome",
+          "Autistic Spectrum",
+          "Misophonia",
+          "Dyslexia",
+          "Hearing Impaired"
+        ],
+        "other": null
+      },
+      "experience_with_pets": {
+        "id": "CAREGIVER_PETS_EXPERIENCE-01JZBKNBEDHBHR94XQ2AY7HRBN",
+        "pets": [
+          "🐱 Cat",
+          "🐶 Small Dog",
+          "🐽 Pig",
+          "🐩 Large Dog",
+          "🐘 Baby Elephant"
+        ],
+        "other": ""
+      },
+      "hobbies": {
+        "creative_interests": [
+          "🩰 Dance",
+          "🪅 DIY",
+          "🎨 Painting",
+          "📚 Reading",
+          "🧶 Arts & Crafts"
+        ],
+        "other_creative_interest": "",
+        "instrument_interests": [
+          "🎹 Piano",
+          "🎸 Guitar"
+        ],
+        "other_instrument_interest": "",
+        "sport_interests": [
+          "⛸️ Ice skating",
+          "🏀 Basketball",
+          "⚽ Soccer"
+        ],
+        "other_sport_interest": "",
+        "stem_interests": [],
+        "other_stem_interest": "",
+        "id": "CAREGIVER_HOBBIES-01JZBKNBEKNAKYH43RGAR6RTF4"
+      },
+      "characteristics": {
+        "diets": [
+          "🥬 Vegan"
+        ],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "{\"⛪️ Christianity\"}",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "CAREGIVER_CHARACTERISTIC-01JZBKNBETAZM2X3E8PKN0MWYJ",
+        "personalities": [
+          "🫧 Bubbly",
+          "😌 Patient",
+          "😎 Cool"
+        ],
+        "religion_is_dealbreaker": false
+      },
+      "job_commitment": {
+        "commitment": "Long Term",
+        "start_date": "07/05/2025",
+        "end_date": null,
+        "id": "CAREGIVER_JOB_COMMITMENT-01JZBKNB9RJS973KH2Q2R16SAH"
+      },
+      "service_days": [
+        {
+          "day": "Sat",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA4EY31W3MP8D2YA662"
+        },
+        {
+          "day": "Mon",
+          "begin": "21:17:00",
+          "end": "22:17:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA1D4SHA5Q3F9TE89A3"
+        },
+        {
+          "day": "Tue",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA2WJ0GQHZC6TNGMHYX"
+        },
+        {
+          "day": "Sun",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA5NZ1EGMHW6N9YW3GK"
+        },
+        {
+          "day": "Wed",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA2M51AEDBCBKPDNGJ3"
+        },
+        {
+          "day": "Thu",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA39ZF08FW7CRVJH6BC"
+        },
+        {
+          "day": "Fri",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZBKNBA3N71RATZTB7FPCQYY"
+        }
+      ],
+      "responsibilities": {
+        "childcare_responsibilities": [
+          "🛁 Bathing",
+          "📝 Homework Help",
+          "🏠 Room organization",
+          "🏃 Childcare Errands"
+        ],
+        "other_childcare_responsibilities": "",
+        "household_responsibilities": [
+          "👕 Laundry",
+          "🥘 Meal Prep"
+        ],
+        "other_household_responsibilities": "",
+        "id": "CAREGIVER_RESPONSIBILITY-01JZBKNBF0XNJGK30XWQTHSCJK"
+      },
+      "payment_info": {
+        "type": "Hourly",
+        "hourly_min": 33,
+        "hourly_max": 43,
+        "salary": null,
+        "method": "🪪 Employee",
+        "show_method_on_profile": false,
+        "id": "CAREGIVER_PAYMENT_INFO-01JZBKNBC7KH2MB4JEZ8085794"
+      },
+      "past_positions": [
+        {
+          "id": "CAREGIVER_PAST_POSITION-01JZBKNBCEMP9AY6MQTB8E144E",
+          "family_or_business_name": "Foster family ",
+          "start_date": "07/03/2007",
+          "end_date": "07/03/2007",
+          "position_type": "🧃 Au Pair",
+          "children_age_group": [
+            "🧸 Toddler"
+          ],
+          "availability": "🕐 Full Time",
+          "childcare_responsibilities": [
+            "🧺 Laundry",
+            "🛁 Bathing",
+            "🍕 Packing Lunch",
+            "🥓 Cooking",
+            "🚆 Commuting",
+            "📅 Scheduling/ Planning",
+            "📖 Homework Help",
+            "🍎 Tutoring",
+            "📦 Organization",
+            "🛍️ Childcare Errands"
+          ],
+          "household_responsibilities": [
+            "👔 Laundry",
+            "🍳 Cooking",
+            "🍲 Meal Prep",
+            "🐾 Pet Care",
+            "🎊 Event Planning",
+            "🍽️ Loading/Unloading Dishwasher"
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "category": "get_to_know",
+          "title": "I enjoy",
+          "answer": "Learning about what makes things run ",
+          "id": "CAREGIVER_PROMPT-01JZBKNBD3Z69BA4B3DW0DJVNS"
+        },
+        {
+          "category": "get_to_know",
+          "title": "One thing you definitely have to know about me is",
+          "answer": "I prefer direct communication ",
+          "id": "CAREGIVER_PROMPT-01JZBKNBD3G39PWZ4AP9P9ERAJ"
+        }
+      ],
+      "pictures": [
+        {
+          "created_at": "2025-07-04T20:58:06.364Z",
+          "updated_at": "2025-07-04T20:58:06.408Z",
+          "_v": 2,
+          "id": "IMAGE-01JZBKPW4KWBFVSTAH6RX7Q0Z6",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZBKPV9TREJXJRM27WJ5RW19.jpg",
+          "key": "profile/01JZBKPV9TREJXJRM27WJ5RW19.jpg",
+          "blur_hash": "ePGu2oD%?^%L-;*IIAx]t7ofRiaei^X7IU%2x]xZxuIotlxuxut7kC",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-04T20:58:03.218Z",
+          "updated_at": "2025-07-04T20:58:06.408Z",
+          "_v": 2,
+          "id": "IMAGE-01JZBKPS28ZG9MG9DHRM8AERD3",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZBKPR6DM32NF00NDT88D8JD.jpg",
+          "key": "profile/01JZBKPR6DM32NF00NDT88D8JD.jpg",
+          "blur_hash": "eMHezt%h-qZ~ni_4x].TRiM_%gRiMwM{WBjEIUMcbckCIToIbHkBWC",
+          "type": "PROFILE_PICTURE"
+        },
+        {
+          "created_at": "2025-07-04T20:58:04.418Z",
+          "updated_at": "2025-07-04T20:58:06.408Z",
+          "_v": 2,
+          "id": "IMAGE-01JZBKPT7S9TXYA3KHFKFE4Q18",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZBKPSBQ79RRQHJG0P85JA4C.jpg",
+          "key": "profile/01JZBKPSBQ79RRQHJG0P85JA4C.jpg",
+          "blur_hash": "e7D]oCMe1j.7$R00E1W?,:%MACM}Zzt7E1M_-Vx]5RV@0M?u~BM{X7",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-04T20:58:05.391Z",
+          "updated_at": "2025-07-04T20:58:06.408Z",
+          "_v": 2,
+          "id": "IMAGE-01JZBKPV649NDJKK1GX2YSPR2R",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZBKPTAXT9EQ9CBG7CK1PV1Q.jpg",
+          "key": "profile/01JZBKPTAXT9EQ9CBG7CK1PV1Q.jpg",
+          "blur_hash": "eWHLVhbb?vtR-:~qM{ozRjkCyDaKROn$Io-;t8Rjt7Rj-po}WBt8oM",
+          "type": "OTHER"
+        }
+      ]
+    }
+  },
+  {
+    "created_at": "2025-07-04T19:00:17.165Z",
+    "updated_at": "2025-07-04T19:00:17.214Z",
+    "_v": 3,
+    "user_id": "USER-01JZBCZ4M6CCEXRP0TVJBHCHWQ",
+    "phone_number": "+12053565339",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T19:00:17.173Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T17:23:27.263Z",
+    "updated_at": "2025-07-04T17:23:27.314Z",
+    "_v": 3,
+    "user_id": "USER-01JZB7DTWNEAD5A06AVE112CEV",
+    "phone_number": "+12679755179",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T17:23:27.269Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T17:10:55.544Z",
+    "updated_at": "2025-07-04T17:10:55.593Z",
+    "_v": 3,
+    "user_id": "USER-01JZB6PWSEXXA24JRGT6DPCW67",
+    "phone_number": "+13478121005",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T17:10:55.548Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T14:52:21.602Z",
+    "updated_at": "2025-07-04T14:52:21.652Z",
+    "_v": 3,
+    "user_id": "USER-01JZAYS5PXF7S8C7SAV1RA8FRW",
+    "phone_number": "+15167387259",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T14:52:21.614Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T13:36:42.339Z",
+    "updated_at": "2025-07-04T13:36:42.388Z",
+    "_v": 3,
+    "user_id": "USER-01JZATEMTSC9VBYRG0M8B0EAY7",
+    "phone_number": "+19142590097",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T13:36:42.347Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T12:21:07.159Z",
+    "updated_at": "2025-07-04T12:21:07.211Z",
+    "_v": 3,
+    "user_id": "USER-01JZAP47YDYHSSGYDQ1R2KN28B",
+    "phone_number": "+13472396101",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T12:21:07.165Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T12:01:17.426Z",
+    "updated_at": "2025-07-04T12:01:17.494Z",
+    "_v": 3,
+    "user_id": "USER-01JZAMZY3CZQCB5T5Q7E20DA52",
+    "phone_number": "+13477720854",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T12:01:17.444Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T02:59:05.635Z",
+    "updated_at": "2025-07-04T02:59:05.688Z",
+    "_v": 3,
+    "user_id": "USER-01JZ9NZ4RSJMHGAB9YXBY8B5FD",
+    "phone_number": "+19544707514",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T02:59:05.643Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T02:39:23.563Z",
+    "updated_at": "2025-07-04T02:39:23.617Z",
+    "_v": 3,
+    "user_id": "USER-01JZ9MV2D2H1DZ5FCKVENV8659",
+    "phone_number": "+13476498902",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T02:39:23.573Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-04T01:33:00.703Z",
+    "updated_at": "2025-07-04T01:33:00.757Z",
+    "_v": 3,
+    "user_id": "USER-01JZ9H1GWVW4MHMMAJF0WBN453",
+    "phone_number": "+19179829791",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-04T01:33:00.718Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T23:33:35.000Z",
+    "updated_at": "2025-07-03T23:33:35.059Z",
+    "_v": 3,
+    "user_id": "USER-01JZ9A6V4JGXVPAFGKF62ZBD4Q",
+    "phone_number": "+19292508642",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T23:33:35.014Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T20:00:58.599Z",
+    "updated_at": "2025-07-03T20:00:58.652Z",
+    "_v": 3,
+    "user_id": "USER-01JZ8Y1HPYA104MND6WYYCNG3F",
+    "phone_number": "+17186968630",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T20:00:58.606Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T17:45:29.483Z",
+    "updated_at": "2025-07-03T17:45:29.537Z",
+    "_v": 3,
+    "user_id": "USER-01JZ8P9F47TGR0BSTEW0WTCRCM",
+    "phone_number": "+19142336846",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T17:45:29.495Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T15:37:45.322Z",
+    "updated_at": "2025-07-03T15:37:45.403Z",
+    "_v": 3,
+    "user_id": "USER-01JZ8EZJK6WG176MZRAXF6685D",
+    "phone_number": "+13472107387",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T15:37:45.335Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T14:29:53.367Z",
+    "updated_at": "2025-07-03T14:29:53.431Z",
+    "_v": 3,
+    "user_id": "USER-01JZ8B3A2KJ0JS3ESCRCF1VG0W",
+    "phone_number": "+13474903058",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T14:29:53.381Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T05:25:36.058Z",
+    "updated_at": "2025-07-03T05:29:22.366Z",
+    "_v": 7,
+    "user_id": "USER-01JZ7BYP5PJY10Q00AYMT86BC2",
+    "phone_number": "+16468359268",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T05:29:22.307Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T03:48:51.746Z",
+    "updated_at": "2025-07-03T03:48:51.792Z",
+    "_v": 3,
+    "user_id": "USER-01JZ76DHWS4NQQ146HKXBZ583C",
+    "phone_number": "+16467964105",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T03:48:51.753Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T03:33:02.007Z",
+    "updated_at": "2025-07-03T03:33:02.071Z",
+    "_v": 3,
+    "user_id": "USER-01JZ75GJDC8ZYFCX92FQBTSS45",
+    "phone_number": "+19843025280",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T03:33:02.018Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-03T01:23:57.825Z",
+    "updated_at": "2025-07-03T02:25:11.902Z",
+    "_v": 7,
+    "user_id": "USER-01JZ6Y47QQ81EH0F8KD2CZ7RHP",
+    "phone_number": "+12259931477",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T02:25:11.842Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T23:32:25.233Z",
+    "updated_at": "2025-07-03T01:00:27.230Z",
+    "_v": 7,
+    "user_id": "USER-01JZ6QR00827CT6C2FT06QAWRE",
+    "phone_number": "+18566396219",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T01:00:27.165Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T23:18:09.504Z",
+    "updated_at": "2025-07-02T23:18:09.571Z",
+    "_v": 3,
+    "user_id": "USER-01JZ6PXWAK5EGEC9J9SM8G11FC",
+    "phone_number": "+19293608533",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T23:18:09.524Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T21:51:08.325Z",
+    "updated_at": "2025-07-02T21:51:08.371Z",
+    "_v": 3,
+    "user_id": "USER-01JZ6HYHH4EGDWJSC909WRSMV5",
+    "phone_number": "+18457297554",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T21:51:08.340Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T19:35:01.345Z",
+    "updated_at": "2025-07-02T20:02:01.452Z",
+    "_v": 7,
+    "user_id": "USER-01JZ6A59YWVANSA1E39BK8G76N",
+    "phone_number": "+19174450459",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T20:02:01.350Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T19:20:40.670Z",
+    "updated_at": "2025-07-02T19:22:05.699Z",
+    "_v": 4,
+    "user_id": "USER-01JZ69B1ETSF39SYYXDM8B1DVY",
+    "phone_number": "+13472990164",
+    "email": null,
+    "role": "FAMILY",
+    "access_level": "USER",
+    "name": "Doukoure Family",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T19:20:40.682Z",
+    "settings": {
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": {
+      "created_at": "2025-07-02T19:22:05.699Z",
+      "updated_at": "2025-07-04T06:00:42.648Z",
+      "_v": 4,
+      "id": "FAMILY_PROFILE-01JZ69DMG5M7YVBM4Z52S9K5NK",
+      "name": "Doukoure Family",
+      "behavioural_differences": [],
+      "other_behavioural_differences": "",
+      "zipcode": "11435",
+      "latitude": 40.7029,
+      "longitude": -73.8111,
+      "location": "Jamaica, New York",
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -73.8111,
+          40.7029
+        ]
+      },
+      "aquisition_source": "TikTok",
+      "languages": [
+        "💬 English",
+        "💬 Other"
+      ],
+      "other_languages": null,
+      "pets": [
+        "🚫 None"
+      ],
+      "other_pets": "",
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.37730935059842485,
+      "children": [
+        {
+          "id": "CHILD-01JZ69DN2E5B5GWSWY0P1XRX70",
+          "age_group": "🧸 Toddler",
+          "count": 1
+        }
+      ],
+      "caregiver_preference": null,
+      "description": {
+        "id": "FAMILY_DESCRIPTION-01JZ69DN18B65Y5JDRTG2WSTNX",
+        "description": "👩🏻‍🤝‍👨🏾 Mom & Dad",
+        "other": null,
+        "show_on_profile": false
+      },
+      "household_info": {
+        "diets": [],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [
+          "🤬 No Swearing"
+        ],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "🕌 Islam",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "HOUSEHOLD_INFO-01JZ69DN1YKZM2X3949P9YT4N1"
+      },
+      "philosophies": {
+        "id": "FAMILY_PHILOSOPHIES-01JZ69DN26ZX83463KGXG0WB7H",
+        "philosophies": [
+          "🌈 None"
+        ],
+        "other": "",
+        "show_on_profile": false
+      },
+      "extra_info": null,
+      "children_interests": {
+        "creative_interests": [],
+        "other_creative_interest": null,
+        "instrument_interests": [],
+        "other_instrument_interest": null,
+        "sport_interests": [],
+        "other_sport_interest": null,
+        "stem_interests": [],
+        "other_stem_interest": null,
+        "id": "CHILDREN_INTERESTS-01JZ69DN1P8G9DENXYKZK8VP2Q"
+      },
+      "allergies": {
+        "id": "FAMILY_ALLERGIES-01JZ69DN31T7ZDS3R27EQ2C7GH",
+        "food_allergies": [],
+        "other_food_allergies": null,
+        "environmental_allergies": [],
+        "other_environtal_allergies": null,
+        "other_allergies": [],
+        "other_other_allergies": null
+      },
+      "pictures": []
+    },
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T19:16:07.922Z",
+    "updated_at": "2025-07-02T19:16:07.978Z",
+    "_v": 3,
+    "user_id": "USER-01JZ692Q3ET1M6933YGGGE248J",
+    "phone_number": "+16465120398",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T19:16:07.935Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T19:15:01.609Z",
+    "updated_at": "2025-07-02T19:15:01.674Z",
+    "_v": 3,
+    "user_id": "USER-01JZ690PB4ND694M9ZR179K8R1",
+    "phone_number": "+19292817026",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T19:15:01.628Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T18:32:15.667Z",
+    "updated_at": "2025-07-02T18:34:44.725Z",
+    "_v": 19,
+    "user_id": "USER-01JZ66JCH9ARXGEJW7T1RA2RG5",
+    "phone_number": "+13477016455",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T18:34:44.715Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T17:43:56.420Z",
+    "updated_at": "2025-07-02T17:43:56.465Z",
+    "_v": 3,
+    "user_id": "USER-01JZ63SX7VB1QETDFWTNDNH4RR",
+    "phone_number": "+16462816560",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T17:43:56.425Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T16:54:08.956Z",
+    "updated_at": "2025-07-02T16:54:09.014Z",
+    "_v": 3,
+    "user_id": "USER-01JZ60YQSRN97R93C71QM4NRD1",
+    "phone_number": "+19296802900",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T16:54:08.969Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T16:41:28.633Z",
+    "updated_at": "2025-07-02T16:41:28.700Z",
+    "_v": 3,
+    "user_id": "USER-01JZ607H9NA4S2WA3V684MPC7P",
+    "phone_number": "+19297071205",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T16:41:28.648Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T15:41:00.876Z",
+    "updated_at": "2025-07-02T15:41:00.948Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5WRTJ1R8625JQSBEA94V1A",
+    "phone_number": "+12163743038",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T15:41:00.888Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T15:08:16.734Z",
+    "updated_at": "2025-07-02T15:11:55.554Z",
+    "_v": 21,
+    "user_id": "USER-01JZ5TWWENZC47M5METWFS673K",
+    "phone_number": "+19294528100",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T15:11:55.496Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T14:59:32.457Z",
+    "updated_at": "2025-07-02T14:59:32.515Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5TCWF1C5AAZ3ZTXK0D7X0S",
+    "phone_number": "+15167548999",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T14:59:32.465Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T14:43:12.632Z",
+    "updated_at": "2025-07-03T00:09:10.348Z",
+    "_v": 7,
+    "user_id": "USER-01JZ5SEZKG1KR1KRV4T59SAWJY",
+    "phone_number": "+13473567865",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T00:09:10.289Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T14:26:18.422Z",
+    "updated_at": "2025-07-02T14:26:18.473Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5RG15CHZXYK0YZS1VZCWKT",
+    "phone_number": "+13477927236",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T14:26:18.431Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T13:34:32.180Z",
+    "updated_at": "2025-07-03T19:33:07.215Z",
+    "_v": 21,
+    "user_id": "USER-01JZ5NH7QGTHQBX5EP5QP33RSY",
+    "phone_number": "+19144847226",
+    "email": null,
+    "role": "FAMILY",
+    "access_level": "USER",
+    "name": "Rahmans ",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T19:33:07.103Z",
+    "settings": {
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": {
+      "created_at": "2025-07-02T13:36:08.279Z",
+      "updated_at": "2025-07-04T06:00:42.648Z",
+      "_v": 5,
+      "id": "FAMILY_PROFILE-01JZ5NM5JSH93WZAX5FGE52REF",
+      "name": "Rahmans ",
+      "behavioural_differences": [],
+      "other_behavioural_differences": "",
+      "zipcode": "10028",
+      "latitude": 40.7763,
+      "longitude": -73.9529,
+      "location": "New York, New York",
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -73.9529,
+          40.7763
+        ]
+      },
+      "aquisition_source": "Instagram",
+      "languages": [
+        "💬 English",
+        "💬 Spanish",
+        "💬 French"
+      ],
+      "other_languages": null,
+      "pets": [
+        "🚫 None"
+      ],
+      "other_pets": "",
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.2904937840762407,
+      "children": [
+        {
+          "id": "CHILD-01JZ5NM61N00109CARYPQM7FGP",
+          "age_group": "🖍️ Pre Schooler",
+          "count": 1
+        },
+        {
+          "id": "CHILD-01JZ5NM61N16RGWPSB950ZBPHJ",
+          "age_group": "🧸 Toddler",
+          "count": 1
+        },
+        {
+          "id": "CHILD-01JZ5NM61NCF2W9HS2G5QJH0SZ",
+          "age_group": "🛴 School Age",
+          "count": 1
+        }
+      ],
+      "caregiver_preference": {
+        "id": "FAMILY_CAREGIVER_PREFERENCE-01JZ5NQ4DMQZR4RP1KX64FZP3B",
+        "caregiver_types": [
+          "🧁   Babysitter"
+        ],
+        "caregiver_type_is_dealbreaker": false,
+        "personalities": [
+          "🫧 Bubbly",
+          "🦹‍♂️ Animated",
+          "🥰 Thoughtful"
+        ],
+        "personality_is_dealbreaker": false,
+        "experience": "1-5 years",
+        "experience_is_dealbreaker": false,
+        "must_speak_same_language": false,
+        "education_level": "🎓 Undergraduate Degree",
+        "show_education_level_on_profile": true,
+        "availability": "⌛ Part Time",
+        "availability_is_dealbreaker": false,
+        "arrangement_type": "⏰ Live Out",
+        "arrangement_type_is_dealbreaker": false,
+        "rejected_caregivers": [],
+        "liked_caregivers": [
+          "CAREGIVER_PROFILE-01JZ421PVQQ011S5VCRC1WZ3Q6",
+          "CAREGIVER_PROFILE-01JZ4JB2N7C7F2Y9T64DEQXD2D",
+          "CAREGIVER_PROFILE-01JZB3QBYTAATKHSCZJC0CBTVE"
+        ],
+        "blocked_caregivers": [],
+        "job_commitment": {
+          "commitment": "📋 Long Term",
+          "start_date": "07/02/2025",
+          "end_date": "07/02/2025",
+          "id": "JOB_COMMITMENT_PREFERENCE-01JZ5NQ4EH3WYNYQXNXKYJ45WC",
+          "is_dealbreaker": false
+        },
+        "requirements": {
+          "id": "REQUIREMENTS_PREFERENCE-01JZ5NQ4EA94RBD56RHBD467Y2",
+          "requirements": [
+            "✈️ Can Travel",
+            "🏊 Can Swim"
+          ],
+          "other_requirement": "",
+          "requirements_are_dealbreaker": false,
+          "certifications": [],
+          "other_certification": "",
+          "certificates_are_dealbreaker": false
+        },
+        "responsibilities": {
+          "childcare_responsibilities": [
+            "🛁 Bathing",
+            "🧺 Laundry",
+            "🍕 Packing Lunch",
+            "🚗 Driving"
+          ],
+          "other_childcare_responsibilities": "",
+          "household_responsibilities": [
+            "🍳 Cooking",
+            "🗑️ Trash & Recycling",
+            "🧹 Light Housekeeping"
+          ],
+          "other_household_responsibilities": "",
+          "id": "RESPONSIBILITY_PREFERENCES-01JZ5NQ4GG82QJ8135RQ521B9K"
+        },
+        "age_preference": {
+          "id": "AGE_PREFERENCE-01JZ5NQ4E4031FXE07CZJNCN21",
+          "age_group": "26 - 30 years old",
+          "is_dealbeaker": false
+        },
+        "gender_preference": {
+          "id": "GENDER_PREFERENCE-01JZ5NQ4DX9Z6GZ529EDZBG0KJ",
+          "genders": [
+            "Female"
+          ],
+          "other": "",
+          "dealbreaker": false
+        },
+        "service_days": [
+          {
+            "day": "Wed",
+            "begin": "09:31:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ESJYY17F834WZ29BT7"
+          },
+          {
+            "day": "Tue",
+            "begin": "11:37:00",
+            "end": "18:30:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ESV2Q5HWEBFZE43XQ4"
+          },
+          {
+            "day": "Mon",
+            "begin": "09:34:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ER86GB79PBVFA8CSQX"
+          },
+          {
+            "day": "Sun",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ES83Q5CGNSBE7EDQHD"
+          },
+          {
+            "day": "Sat",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ESB749X6WKTYE6ZAJ6"
+          },
+          {
+            "day": "Fri",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ESGAV2TX1R4ZSX6PB7"
+          },
+          {
+            "day": "Thu",
+            "begin": "09:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ5NQ4ES0M59XEFQDNE3RJ5C"
+          }
+        ]
+      },
+      "description": {
+        "id": "FAMILY_DESCRIPTION-01JZ5NM60XXQ7JGEPZ8HMK3S4R",
+        "description": "👩🏻‍🤝‍👨🏾 Mom & Dad",
+        "other": null,
+        "show_on_profile": false
+      },
+      "household_info": {
+        "diets": [
+          "🍗 Meat Eater",
+          "🥩 Halal"
+        ],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [
+          "📵 No Screens",
+          "💨 No Vapping",
+          "💅 No Long Nails",
+          "👋🏽 No Hitting"
+        ],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "🕌 Islam",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "HOUSEHOLD_INFO-01JZ5NM61AG7C50N4RE3078YKM"
+      },
+      "philosophies": {
+        "id": "FAMILY_PHILOSOPHIES-01JZ5NM61GTF01XBB2VN3M0FYG",
+        "philosophies": [
+          "🌈 Montessori"
+        ],
+        "other": "",
+        "show_on_profile": false
+      },
+      "extra_info": {
+        "id": "FAMILY_EXTRA_INFO-01JZ5NSRF6DYZ6EBJHCSJ1THQZ",
+        "more_information": null,
+        "benefits": {
+          "id": "FAMILY_PROVIDED_BENEFITS-01JZ5NSRFJHFKDA0863H0GN5J8",
+          "benefits": [
+            "🏥 Health Insurance",
+            "🌴 Paid Time Off",
+            "🤒 Sick Leave"
+          ],
+          "other": null,
+          "show_on_profile": false
+        },
+        "prompts": [
+          {
+            "category": "childcare",
+            "title": "We expect our caregiver to",
+            "answer": "Be kind but firm ",
+            "id": "FAMILY_PROMPTS-01JZ5NSRFSYZEA0Z6PDA9F0S4H"
+          },
+          {
+            "category": "get_to_know",
+            "title": "We try to instill",
+            "answer": "Fairness and kindness ",
+            "id": "FAMILY_PROMPTS-01JZ5NSRFR84VR6YZ8HRA5KZXN"
+          }
+        ],
+        "payment_info": {
+          "type": "Hourly",
+          "hourly_min": 22,
+          "hourly_max": 32,
+          "salary": null,
+          "method": "employee",
+          "show_method_on_profile": false,
+          "id": "FAMILY_PAYMENT_INFO-01JZ5NSRFCH4AHCX0YQ8G0AXN8"
+        }
+      },
+      "children_interests": {
+        "creative_interests": [
+          "🩰 Dance",
+          "🎭 Drama",
+          "🎮 Gaming",
+          "🧶 Arts & Crafts"
+        ],
+        "other_creative_interest": null,
+        "instrument_interests": [
+          "🎹 Piano",
+          "🥁 Drum"
+        ],
+        "other_instrument_interest": null,
+        "sport_interests": [
+          "⛸️ Ice skating",
+          "🏀 Basketball",
+          "🏈 Football"
+        ],
+        "other_sport_interest": null,
+        "stem_interests": [],
+        "other_stem_interest": null,
+        "id": "CHILDREN_INTERESTS-01JZ5NM614CQCWBAAH7YHA5ZME"
+      },
+      "allergies": {
+        "id": "FAMILY_ALLERGIES-01JZ5NM62T1B9V6NTNMEXR4WN1",
+        "food_allergies": [],
+        "other_food_allergies": null,
+        "environmental_allergies": [],
+        "other_environtal_allergies": null,
+        "other_allergies": [],
+        "other_other_allergies": null
+      },
+      "pictures": [
+        {
+          "created_at": "2025-07-02T13:44:36.400Z",
+          "updated_at": "2025-07-02T13:44:39.423Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ5P3NSCTMZANQTSM0CGZ4ME",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ5P3N0H01HJ2K3HZHG6ARBW.jpg",
+          "key": "profile/01JZ5P3N0H01HJ2K3HZHG6ARBW.jpg",
+          "blur_hash": "e6HLC*8_00}rIQ5t~pzo0Lx_00EP_2%3x_Mx0Kt,tRZ#4VRO?bxnM_",
+          "type": "PROFILE_PICTURE"
+        },
+        {
+          "created_at": "2025-07-02T13:44:37.425Z",
+          "updated_at": "2025-07-02T13:44:39.423Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ5P3PSEYVDVJ1DDBJ2XSQJS",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ5P3P3Q0TWP4CE594QEDN3C.jpg",
+          "key": "profile/01JZ5P3P3Q0TWP4CE594QEDN3C.jpg",
+          "blur_hash": "eCJQ_=#64n-onj9a-TrqIoxt4nXU4nXm-=?wIU-oaxxu.7%LD%n$Rj",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-02T13:44:38.275Z",
+          "updated_at": "2025-07-02T13:44:39.423Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ5P3QKZ6NTNZ1K6MAYQH3RV",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ5P3PWMJDBKP8M6C4A1S08E.jpg",
+          "key": "profile/01JZ5P3PWMJDBKP8M6C4A1S08E.jpg",
+          "blur_hash": "eDIX8B-50h~V8|Q8%LxpMe=ZN5nNx[$%?bVzIWnN%LRi=_XUoMNFIT",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-02T13:44:39.395Z",
+          "updated_at": "2025-07-02T13:44:39.423Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ5P3RPQ5FB4VMH5FN33GTJP",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ5P3R1KAZBZVP7WFNTYBPXM.jpg",
+          "key": "profile/01JZ5P3R1KAZBZVP7WFNTYBPXM.jpg",
+          "blur_hash": "eSI:,y8{ni-oS$.lEKX8s:xF-:jFNGSzR+tQofsCoLR*tQxGR*WCof",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T13:03:26.099Z",
+    "updated_at": "2025-07-02T13:03:26.153Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5KR9CB6XPW132FWQGABJBP",
+    "phone_number": "+19293101621",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T13:03:26.113Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T12:34:43.647Z",
+    "updated_at": "2025-07-02T12:34:43.702Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5J3Q9X6ZG24J8PMWAEYBM0",
+    "phone_number": "+16129634630",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T12:34:43.663Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T12:06:23.043Z",
+    "updated_at": "2025-07-02T12:06:23.094Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5GFTJ0G856PJ26S7NZ3XGC",
+    "phone_number": "+19294225667",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T12:06:23.056Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T11:58:51.601Z",
+    "updated_at": "2025-07-02T12:17:53.726Z",
+    "_v": 9,
+    "user_id": "USER-01JZ5G21PCE6XW2R31DQ6ZSHJ6",
+    "phone_number": "+13479129642",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T12:17:53.651Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T11:47:44.953Z",
+    "updated_at": "2025-07-02T11:47:45.014Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5FDPNJRK0EVFVSVH3DA60K",
+    "phone_number": "+13475561111",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T11:47:44.961Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T11:14:10.449Z",
+    "updated_at": "2025-07-02T11:14:10.520Z",
+    "_v": 3,
+    "user_id": "USER-01JZ5DG7C664NXQCMMJQ38VHRJ",
+    "phone_number": "+16824331937",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T11:14:10.457Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T08:30:33.733Z",
+    "updated_at": "2025-07-02T19:25:33.666Z",
+    "_v": 8,
+    "user_id": "USER-01JZ544MQZ0GE5GKDJGWGK7XFJ",
+    "phone_number": "+19143125177",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T19:25:33.614Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T05:14:41.144Z",
+    "updated_at": "2025-07-02T05:14:41.193Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4RXZKPMHZEVP0T8EQRCPS7",
+    "phone_number": "+13479819107",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T05:14:41.157Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T05:13:59.907Z",
+    "updated_at": "2025-07-02T05:13:59.953Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4RWQB1PYTK238TX5JJWAZQ",
+    "phone_number": "+19294769583",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T05:13:59.921Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T04:36:25.135Z",
+    "updated_at": "2025-07-02T04:36:25.205Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4PQXDA0975D52M43GXBNT9",
+    "phone_number": "+17863408185",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T04:36:25.153Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:48:17.107Z",
+    "updated_at": "2025-07-02T14:48:14.553Z",
+    "_v": 7,
+    "user_id": "USER-01JZ4KZS289QTJJMVNKBEZ1F2N",
+    "phone_number": "+19292752413",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T14:48:14.474Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:42:57.123Z",
+    "updated_at": "2025-07-02T03:42:57.172Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4KP0JRHCNHM6BSAVDJWC0H",
+    "phone_number": "+12018983723",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:42:57.127Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:36:00.705Z",
+    "updated_at": "2025-07-02T03:36:00.752Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4K99XRB1CX9EV4NARQ41DZ",
+    "phone_number": "+12017190016",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:36:00.710Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:34:30.601Z",
+    "updated_at": "2025-07-02T03:34:30.653Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4K6HXZ83NDA22R7A5Y1NQ0",
+    "phone_number": "+19293262456",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:34:30.605Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:32:21.430Z",
+    "updated_at": "2025-07-02T03:32:21.479Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4K2KSBXWZJPV65FQXZEBPB",
+    "phone_number": "+16467047254",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:32:21.438Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T03:16:46.620Z",
+    "updated_at": "2025-07-02T03:19:30.216Z",
+    "_v": 4,
+    "user_id": "USER-01JZ4J62WP0J65CXEZ7V6RXHJ2",
+    "phone_number": "+19173480767",
+    "email": null,
+    "role": "CAREGIVER",
+    "access_level": "USER",
+    "name": "Anna",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:16:46.628Z",
+    "settings": {
+      "show_age": true,
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": null,
+    "caregiver_profile": {
+      "created_at": "2025-07-02T03:19:30.216Z",
+      "updated_at": "2025-07-04T06:01:21.473Z",
+      "_v": 7,
+      "id": "CAREGIVER_PROFILE-01JZ4JB2N7C7F2Y9T64DEQXD2D",
+      "name": "Anna",
+      "date_of_birth": "2001-01-17",
+      "gender": "Female",
+      "pronouns": "She/Her",
+      "aquisition_source": "Instagram",
+      "zipcode": "11354",
+      "latitude": 40.7667,
+      "longitude": -73.8241,
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -73.8241,
+          40.7667
+        ]
+      },
+      "location": "Flushing, New York",
+      "caregiver_type": "Babysitter",
+      "years_of_experience": "1-5 years",
+      "education_level": "High School",
+      "show_edu_level_on_profile": false,
+      "ages_best_with": [
+        "Newborn",
+        "Infant",
+        "Toddler"
+      ],
+      "children_capacity": 2,
+      "childcare_philosophies": [],
+      "other_philosohies": null,
+      "availability": [
+        "Full Time",
+        "Part Time"
+      ],
+      "arrangement_type": "Live Out",
+      "required_benfits": [
+        "maternity_leave",
+        "overtime_pay",
+        "yearly_bonus",
+        "extra_child_pay",
+        "paid_time_off"
+      ],
+      "other_required_benefits": null,
+      "rejected_families": [],
+      "liked_families": [],
+      "blocked_families": [],
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.46062922730177425,
+      "abilities_and_certifications": {
+        "id": "CAREGIVER_ABILITIES-01JZ4JB3861RNZ5V01356VYKMM",
+        "abilities": [
+          "COVID Vaccination",
+          "Can Travel",
+          "Able To Drive"
+        ],
+        "other_ability": null,
+        "certifications": [
+          "Special Needs"
+        ],
+        "other_certification": null
+      },
+      "language": {
+        "id": "CAREGIVER_LANGUAGE-01JZ4JB32PQK5GXT0RM19T97XN",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "other": "French",
+        "requires_same_language_family": true
+      },
+      "experience_with_disabilities": {
+        "id": "CAREGIVER_DISABILITIES_EXPERIENCE-01JZ4JB38H1BGWFXMZSRZ7ASK9",
+        "disabilities": [],
+        "other": null
+      },
+      "experience_with_pets": {
+        "id": "CAREGIVER_PETS_EXPERIENCE-01JZ4JB38ZKPVMX205G2CH25G5",
+        "pets": [
+          "Cat",
+          "Small Dog",
+          "Large Dog"
+        ],
+        "other": null
+      },
+      "hobbies": {
+        "creative_interests": [
+          "Dance",
+          "Painting",
+          "Fashion Design"
+        ],
+        "other_creative_interest": null,
+        "instrument_interests": [],
+        "other_instrument_interest": null,
+        "sport_interests": [
+          "Volleyball"
+        ],
+        "other_sport_interest": null,
+        "stem_interests": [],
+        "other_stem_interest": null,
+        "id": "CAREGIVER_HOBBIES-01JZ4JB39EFB0AJ68JYA4PMEV5"
+      },
+      "characteristics": {
+        "diets": [
+          "Meat Eater"
+        ],
+        "other_diets": null,
+        "show_diet_on_profile": false,
+        "rules": [
+          "No Vaping",
+          "No Swearing",
+          "No Bullying",
+          "No Smoking",
+          "No Hitting"
+        ],
+        "other_rules": null,
+        "show_rules_on_profile": false,
+        "religion": "{\"Christianity\"}",
+        "other_religion": null,
+        "show_religion_on_profile": false,
+        "id": "CAREGIVER_CHARACTERISTIC-01JZ4JB39VY6WATC6W668MX962",
+        "personalities": [
+          "Bubbly",
+          "Nurturing",
+          "Patient"
+        ],
+        "religion_is_dealbreaker": false
+      },
+      "job_commitment": {
+        "commitment": "Long Term",
+        "start_date": "07/02/2025",
+        "end_date": null,
+        "id": "CAREGIVER_JOB_COMMITMENT-01JZ4JB32YJF47W9J3RM0WMM67"
+      },
+      "service_days": [
+        {
+          "day": "Mon",
+          "begin": "18:29:00",
+          "end": "22:29:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB336EJPCH3R1WD3DS9M9"
+        },
+        {
+          "day": "Sat",
+          "begin": "06:31:00",
+          "end": "14:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB3370E6ESK569DQGJQC1"
+        },
+        {
+          "day": "Fri",
+          "begin": "06:32:00",
+          "end": "17:32:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB337VFEYRAAHARWE6420"
+        },
+        {
+          "day": "Thu",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB3377HA64DNV3FSM49H6"
+        },
+        {
+          "day": "Wed",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB337S29Z7QXD19XP0B0H"
+        },
+        {
+          "day": "Tue",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB337MMTP6K5QC2ZNHEGM"
+        },
+        {
+          "day": "Sun",
+          "begin": "02:31:00",
+          "end": "14:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ4JB337QE1QD4NND6MKEZSP"
+        }
+      ],
+      "responsibilities": {
+        "childcare_responsibilities": [
+          "bathing",
+          "laundry",
+          "playDates",
+          "diaperChange",
+          "lightHouseKeeping",
+          "groceryShopping",
+          "childcareErrands"
+        ],
+        "other_childcare_responsibilities": null,
+        "household_responsibilities": [
+          "laundry2",
+          "petCare",
+          "lightHousekeeping2"
+        ],
+        "other_household_responsibilities": null,
+        "id": "CAREGIVER_RESPONSIBILITY-01JZ4JB3A2G5C8EBEF5Q9M6CE6"
+      },
+      "payment_info": {
+        "type": "Hourly",
+        "hourly_min": 1,
+        "hourly_max": 25,
+        "salary": null,
+        "method": "employee",
+        "show_method_on_profile": false,
+        "id": "CAREGIVER_PAYMENT_INFO-01JZ4JB356Z61MRK2H408HTFEW"
+      },
+      "past_positions": [
+        {
+          "id": "CAREGIVER_PAST_POSITION-01JZ4JB35HRWH7VKCB5W4WQ0WM",
+          "family_or_business_name": "Department of Education ",
+          "start_date": "09/29/2024",
+          "end_date": "06/25/2025",
+          "position_type": "babysitter",
+          "children_age_group": [
+            "toddler"
+          ],
+          "availability": "full_time",
+          "childcare_responsibilities": [
+            "Packing Lunch",
+            "Play Dates"
+          ],
+          "household_responsibilities": [
+            "Property Management",
+            "Meal Prep"
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "category": "get_to_know",
+          "title": "My favorite holiday tradition is",
+          "answer": "My favorite family holiday tradition would be having game night and just play card games or playing with the Nintendo Switch and just spending time together",
+          "id": "CAREGIVER_PROMPT-01JZ4JB36B8TDH8824PZ7Y2950"
+        }
+      ],
+      "pictures": []
+    }
+  },
+  {
+    "created_at": "2025-07-02T03:06:35.627Z",
+    "updated_at": "2025-07-02T03:06:35.671Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4HKE77FMZR0NACCXRX9WSW",
+    "phone_number": "+17085809112",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T03:06:35.637Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T02:50:45.171Z",
+    "updated_at": "2025-07-02T02:50:45.218Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4GPE1DRF5S40W8X36DG48C",
+    "phone_number": "+12013757024",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T02:50:45.182Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T02:18:38.486Z",
+    "updated_at": "2025-07-02T02:18:38.539Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4EVMGJ997RWG6Z7BJJ1C9B",
+    "phone_number": "+17189126219",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T02:18:38.497Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T02:10:58.947Z",
+    "updated_at": "2025-07-02T02:10:58.997Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4EDKQZCXZ0TZ970CJXKCJ6",
+    "phone_number": "+13478059625",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T02:10:58.959Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T02:01:16.966Z",
+    "updated_at": "2025-07-02T02:01:17.021Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4DVVD2XBRFFDB0S9HASKRB",
+    "phone_number": "+13475039592",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T02:01:16.979Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:58:34.731Z",
+    "updated_at": "2025-07-02T01:58:34.776Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4DPWZ776TQ4KBNP3NPGQVQ",
+    "phone_number": "+17346529430",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:58:34.743Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:49:38.137Z",
+    "updated_at": "2025-07-02T01:49:38.192Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4D6GYPZRKY013YZ0P32JNR",
+    "phone_number": "+18629309222",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:49:38.150Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:39:02.928Z",
+    "updated_at": "2025-07-02T01:39:02.984Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4CK4MBHTY52N15Y0QYKZCZ",
+    "phone_number": "+19175368299",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:39:02.940Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:36:33.778Z",
+    "updated_at": "2025-07-02T01:36:33.824Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4CEJZEFJRK947T0JQRY39H",
+    "phone_number": "+19293368859",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:36:33.789Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:24:03.753Z",
+    "updated_at": "2025-07-02T01:24:03.819Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4BQPH5WACKG7AVEEJHP7FA",
+    "phone_number": "+16468970392",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:24:03.767Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T01:21:42.333Z",
+    "updated_at": "2025-07-02T01:21:42.380Z",
+    "_v": 3,
+    "user_id": "USER-01JZ4BKCDTWCNW7SYG6PA283H4",
+    "phone_number": "+19294973771",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T01:21:42.346Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-02T00:38:47.188Z",
+    "updated_at": "2025-07-02T00:38:47.259Z",
+    "_v": 3,
+    "user_id": "USER-01JZ494SMCDB0SWYFPM0DJJEE3",
+    "phone_number": "+13176859754",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-02T00:38:47.207Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T23:52:47.528Z",
+    "updated_at": "2025-07-01T23:52:47.589Z",
+    "_v": 3,
+    "user_id": "USER-01JZ46GJN2WZCYWCKHHRK0DB0X",
+    "phone_number": "+16462397511",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T23:52:47.539Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T22:26:39.690Z",
+    "updated_at": "2025-07-03T19:24:25.299Z",
+    "_v": 29,
+    "user_id": "USER-01JZ41JVY1H96DS7WAN9MMF1FB",
+    "phone_number": "+19176313110",
+    "email": null,
+    "role": "CAREGIVER",
+    "access_level": "USER",
+    "name": "Amina",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-03T19:24:25.246Z",
+    "settings": {
+      "show_age": true,
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": null,
+    "caregiver_profile": {
+      "created_at": "2025-07-01T22:34:46.010Z",
+      "updated_at": "2025-07-04T06:01:21.473Z",
+      "_v": 12,
+      "id": "CAREGIVER_PROFILE-01JZ421PVQQ011S5VCRC1WZ3Q6",
+      "name": "Amina",
+      "date_of_birth": "1995-06-26",
+      "gender": "Cisgender Female",
+      "pronouns": "👱‍♀️ She/Her",
+      "aquisition_source": "TikTok",
+      "zipcode": "10013",
+      "latitude": 40.7185,
+      "longitude": -74.0025,
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -74.0025,
+          40.7185
+        ]
+      },
+      "location": "New York, New York",
+      "caregiver_type": "🧁 Babysitter",
+      "years_of_experience": "11-20 years",
+      "education_level": "🎓 Undergraduate Degree",
+      "show_edu_level_on_profile": false,
+      "ages_best_with": [
+        "🖍️ Pre Schooler",
+        "🧸 Toddler",
+        "🛴 School Age"
+      ],
+      "children_capacity": 3,
+      "childcare_philosophies": [
+        "🌈 Montessori",
+        "🌈 Waldorf/ Steiner"
+      ],
+      "other_philosohies": null,
+      "availability": [
+        "Full Time"
+      ],
+      "arrangement_type": "⏰ Live Out",
+      "required_benfits": [
+        "💰 Yearly Bonus",
+        "🏖 Paid Time Off",
+        "💸 Yearly Raise",
+        "💲 Overtime Pay"
+      ],
+      "other_required_benefits": null,
+      "rejected_families": [],
+      "liked_families": [
+        "FAMILY_PROFILE-01JZ3JTRVQ3PNEJ86WKSW6HPFZ",
+        "FAMILY_PROFILE-01JZ3GNBDDYDFV4D5WPYCQKXVV",
+        "FAMILY_PROFILE-01JZ69DMG5M7YVBM4Z52S9K5NK",
+        "FAMILY_PROFILE-01JZ5NM5JSH93WZAX5FGE52REF"
+      ],
+      "blocked_families": [],
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.4806375636522662,
+      "abilities_and_certifications": {
+        "id": "CAREGIVER_ABILITIES-01JZ421QBZ5FSDHVQRZQ1J76EQ",
+        "abilities": [
+          "✈️ Can Travel",
+          "⛑️ First Aid",
+          "🏊 Can Swim"
+        ],
+        "other_ability": "",
+        "certifications": [],
+        "other_certification": ""
+      },
+      "language": {
+        "id": "CAREGIVER_LANGUAGE-01JZ421Q85HXP0XDP2E1K1NNT9",
+        "languages": [
+          "English",
+          "Hausa"
+        ],
+        "other": "",
+        "requires_same_language_family": false
+      },
+      "experience_with_disabilities": {
+        "id": "CAREGIVER_DISABILITIES_EXPERIENCE-01JZ421QC5RWXPCT622H7TWG17",
+        "disabilities": [],
+        "other": null
+      },
+      "experience_with_pets": {
+        "id": "CAREGIVER_PETS_EXPERIENCE-01JZ421QCBA1ZJGRQKZZX2TPSX",
+        "pets": [
+          "🐱 Cat",
+          "🐶 Small Dog",
+          "🐩 Large Dog",
+          "🐮 Cow",
+          "🦄 Unicorn"
+        ],
+        "other": ""
+      },
+      "hobbies": {
+        "creative_interests": [
+          "🩰 Dance",
+          "🎭 Drama",
+          "🍰 Baking",
+          "🍳 Cooking"
+        ],
+        "other_creative_interest": "",
+        "instrument_interests": [],
+        "other_instrument_interest": "",
+        "sport_interests": [
+          "⛸️ Ice skating",
+          "🎾 Tennis"
+        ],
+        "other_sport_interest": "",
+        "stem_interests": [],
+        "other_stem_interest": "",
+        "id": "CAREGIVER_HOBBIES-01JZ421QCJ6XWP8HH77CBGKP4A"
+      },
+      "characteristics": {
+        "diets": [
+          "🍗 Meat Eater"
+        ],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "{\"🕌 Islam\"}",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "CAREGIVER_CHARACTERISTIC-01JZ421QCRA38KB1F9W7AW7QDY",
+        "personalities": [
+          "🫧 Bubbly",
+          "🦹‍♂️ Animated",
+          "🤪 Wacky"
+        ],
+        "religion_is_dealbreaker": false
+      },
+      "job_commitment": {
+        "commitment": "Long Term",
+        "start_date": "07/04/2025",
+        "end_date": null,
+        "id": "CAREGIVER_JOB_COMMITMENT-01JZ421Q8C3CRKPJFTJT82A3M4"
+      },
+      "service_days": [
+        {
+          "day": "Wed",
+          "begin": "12:30:00",
+          "end": "18:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8J0CHA2NBMDZZ1RCKX"
+        },
+        {
+          "day": "Thu",
+          "begin": "12:30:00",
+          "end": "18:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JF41NPQ0BXMHC3PXN"
+        },
+        {
+          "day": "Fri",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JTTRZKE0E36RHWTS2"
+        },
+        {
+          "day": "Mon",
+          "begin": "12:30:00",
+          "end": "18:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JKPP1WQFVZKK34MFZ"
+        },
+        {
+          "day": "Sat",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JST45R7J4WGTZX2RJ"
+        },
+        {
+          "day": "Sun",
+          "begin": "00:00:00",
+          "end": "00:00:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JC8DNEA4RH5MK4QPE"
+        },
+        {
+          "day": "Tue",
+          "begin": "12:30:00",
+          "end": "18:31:00",
+          "id": "CAREGIVER_SERVICE_DAY-01JZ421Q8JESV53ARHG51W0EK1"
+        }
+      ],
+      "responsibilities": {
+        "childcare_responsibilities": [
+          "🥪 Packing Lunch",
+          "🛁 Bathing",
+          "🧺 Laundry",
+          "🚌 Commuting",
+          "🎮 Play Dates",
+          "🍳 Cooking"
+        ],
+        "other_childcare_responsibilities": "",
+        "household_responsibilities": [
+          "👩‍🍳 Cooking",
+          "👕 Laundry",
+          "🏃 Errands",
+          "🗑️ Trash & Recycling"
+        ],
+        "other_household_responsibilities": "",
+        "id": "CAREGIVER_RESPONSIBILITY-01JZ421QCZQKPDSF0NXCHQKSJT"
+      },
+      "payment_info": {
+        "type": "Hourly",
+        "hourly_min": 15,
+        "hourly_max": 28,
+        "salary": null,
+        "method": "🪪 Employee",
+        "show_method_on_profile": false,
+        "id": "CAREGIVER_PAYMENT_INFO-01JZ421QA9GHY55HYJNH0TSHAE"
+      },
+      "past_positions": [
+        {
+          "id": "CAREGIVER_PAST_POSITION-01JZ421QAFY0KM60YDKC9ZJX8W",
+          "family_or_business_name": "Mohammed’s ",
+          "start_date": "06/30/2023",
+          "end_date": "06/30/2024",
+          "position_type": "🧁 Babysitter",
+          "children_age_group": [
+            "👶 Newborn",
+            "🧸 Toddler"
+          ],
+          "availability": "🕐 Full Time",
+          "childcare_responsibilities": [
+            "🛁 Bathing",
+            "🍕 Packing Lunch",
+            "🥓 Cooking",
+            "🛝 Play Dates"
+          ],
+          "household_responsibilities": [
+            "🍳 Cooking",
+            "👔 Laundry",
+            "🧺 Ironing"
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "category": "childcare",
+          "title": "My approach to discipline is",
+          "answer": "Helping children understand what they’ve done and talking through a solution. ",
+          "id": "CAREGIVER_PROMPT-01JZ421QB3P3RMH3E6NV7CZGE3"
+        },
+        {
+          "category": "get_to_know",
+          "title": "I enjoy",
+          "answer": "Walking through Central Park in a nice day. ",
+          "id": "CAREGIVER_PROMPT-01JZ421QB3BVX4J6GR0EEP116M"
+        }
+      ],
+      "pictures": [
+        {
+          "created_at": "2025-07-01T22:38:50.459Z",
+          "updated_at": "2025-07-01T22:38:52.919Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ4295JHTFCD3MRXHKZ74MKM",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ4294CBHFT65GGWHH4P6AR1.jpg",
+          "key": "profile/01JZ4294CBHFT65GGWHH4P6AR1.jpg",
+          "blur_hash": "eEF~He~EJD%f%g_2^+tmx]-pO0?v-:s=-p?EWFN0?Zoz-.%2s;kBE1",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-01T22:38:51.664Z",
+          "updated_at": "2025-07-01T22:38:52.919Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ4296R69NECYQV1DDHAWMZ4",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ4295MXWZMVK4F37E8JVX9T.jpg",
+          "key": "profile/01JZ4295MXWZMVK4F37E8JVX9T.jpg",
+          "blur_hash": "exJ7?vM|o#o#s:~qafbHofayo}j=nhadR*WWofWBWAfkxZofWrayof",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-01T22:38:52.876Z",
+          "updated_at": "2025-07-01T22:38:52.919Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ4297X1HDPBG6MTCQF25VT7",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ4296THV4HNZY9WNJ9W7KBZ.jpg",
+          "key": "profile/01JZ4296THV4HNZY9WNJ9W7KBZ.jpg",
+          "blur_hash": "eDE{U.-;00D$?H9FWBNGtRofr=IU_N?IIUo~xuVsM{NGX9%MMwD%Wq",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-01T22:38:49.130Z",
+          "updated_at": "2025-07-01T22:38:52.919Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ42948Z0859BR6NTBDFCQY9",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ42933P6RMHA3MXZR4H25YX.jpg",
+          "key": "profile/01JZ42933P6RMHA3MXZR4H25YX.jpg",
+          "blur_hash": "eGHda4%3P8~Wnm.js;-CxsIoIWE1D%Rkni9u-UM{f7oz%2t7-USga{",
+          "type": "PROFILE_PICTURE"
+        }
+      ]
+    }
+  },
+  {
+    "created_at": "2025-07-01T21:23:12.913Z",
+    "updated_at": "2025-07-01T21:23:12.980Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3XYPCDP52BSTMP03XA4J0W",
+    "phone_number": "+13475443497",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T21:23:12.925Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T20:34:39.750Z",
+    "updated_at": "2025-07-01T20:34:39.800Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3V5SG2XY30ZWM7H3E4ZB2K",
+    "phone_number": "+13013568291",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T20:34:39.763Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T18:05:24.742Z",
+    "updated_at": "2025-07-01T18:14:14.081Z",
+    "_v": 8,
+    "user_id": "USER-01JZ3JMGC195G42XA00BCSZVYW",
+    "phone_number": "+18482645394",
+    "email": null,
+    "role": "FAMILY",
+    "access_level": "USER",
+    "name": "Mohammed",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T18:14:14.000Z",
+    "settings": {
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": {
+      "created_at": "2025-07-01T18:08:50.037Z",
+      "updated_at": "2025-07-04T06:00:42.648Z",
+      "_v": 5,
+      "id": "FAMILY_PROFILE-01JZ3JTRVQ3PNEJ86WKSW6HPFZ",
+      "name": "Mohammed",
+      "behavioural_differences": [
+        "Autistic Spectrum"
+      ],
+      "other_behavioural_differences": "",
+      "zipcode": "08872",
+      "latitude": 40.46,
+      "longitude": -74.3478,
+      "location": "Sayreville, New Jersey",
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -74.3478,
+          40.46
+        ]
+      },
+      "aquisition_source": "TikTok",
+      "languages": [
+        "💬 English"
+      ],
+      "other_languages": null,
+      "pets": [
+        "🚫 None"
+      ],
+      "other_pets": "",
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.46853262966739484,
+      "children": [
+        {
+          "id": "CHILD-01JZ3JTS9YJGARQ0KC92MG794W",
+          "age_group": "🧸 Toddler",
+          "count": 2
+        }
+      ],
+      "caregiver_preference": null,
+      "description": {
+        "id": "FAMILY_DESCRIPTION-01JZ3JTS93TX1YGPHCS71NJ34P",
+        "description": "👩🏻‍🤝‍👨🏾 Mom & Dad",
+        "other": null,
+        "show_on_profile": false
+      },
+      "household_info": {
+        "diets": [
+          "🥩 Halal"
+        ],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [
+          "😊 Be Kind",
+          "🚭 No Smoking",
+          "🤬 No Swearing",
+          "👋🏽 No Hitting",
+          "💨 No Vapping",
+          "💅 No Long Nails",
+          "🛋️ No Jumping On Furniture",
+          "🐂 No Bullying"
+        ],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "🕌 Islam",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "HOUSEHOLD_INFO-01JZ3JTS9KAF14V4DJCDQ43XJK"
+      },
+      "philosophies": {
+        "id": "FAMILY_PHILOSOPHIES-01JZ3JTS9RB0BMY0JKBF8QFMND",
+        "philosophies": [
+          "🌈 None"
+        ],
+        "other": "",
+        "show_on_profile": false
+      },
+      "extra_info": null,
+      "children_interests": {
+        "creative_interests": [
+          "🎨 Painting"
+        ],
+        "other_creative_interest": null,
+        "instrument_interests": [
+          "🎹 Piano"
+        ],
+        "other_instrument_interest": null,
+        "sport_interests": [],
+        "other_sport_interest": null,
+        "stem_interests": [],
+        "other_stem_interest": null,
+        "id": "CHILDREN_INTERESTS-01JZ3JTS9CYMRRDGYBA1C3SD6K"
+      },
+      "allergies": {
+        "id": "FAMILY_ALLERGIES-01JZ3JTSAG8XP4Q9SD3HCN8XPN",
+        "food_allergies": [],
+        "other_food_allergies": null,
+        "environmental_allergies": [],
+        "other_environtal_allergies": null,
+        "other_allergies": [],
+        "other_other_allergies": null
+      },
+      "pictures": []
+    },
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T17:39:20.421Z",
+    "updated_at": "2025-07-01T17:39:20.474Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3H4RQ1W5XBVSR00NVFDN2S",
+    "phone_number": "+19295881448",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T17:39:20.436Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T17:27:42.100Z",
+    "updated_at": "2025-07-01T17:48:21.988Z",
+    "_v": 5,
+    "user_id": "USER-01JZ3GFERFGRQEV5WH8PTP3KK9",
+    "phone_number": "+16467252143",
+    "email": null,
+    "role": "FAMILY",
+    "access_level": "USER",
+    "name": "Mohiba ",
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T17:27:42.111Z",
+    "settings": {
+      "notification_settings": {
+        "new_like": true,
+        "new_match": true,
+        "whats_new": true,
+        "new_message": true,
+        "offers_and_news": true
+      },
+      "pause_discoverability": false,
+      "show_last_activive_status": true
+    },
+    "family_profile": {
+      "created_at": "2025-07-01T17:30:55.275Z",
+      "updated_at": "2025-07-04T06:00:42.648Z",
+      "_v": 6,
+      "id": "FAMILY_PROFILE-01JZ3GNBDDYDFV4D5WPYCQKXVV",
+      "name": "Mohiba ",
+      "behavioural_differences": [],
+      "other_behavioural_differences": "",
+      "zipcode": "10466",
+      "latitude": 40.8904,
+      "longitude": -73.8503,
+      "location": "Bronx, New York",
+      "discovery_radius": 5,
+      "geo_coordinates": {
+        "type": "Point",
+        "coordinates": [
+          -73.8503,
+          40.8904
+        ]
+      },
+      "aquisition_source": "TikTok",
+      "languages": [
+        "💬 English",
+        "💬 Hausa"
+      ],
+      "other_languages": null,
+      "pets": [
+        "🦄 Unicorn"
+      ],
+      "other_pets": "",
+      "average_rating": null,
+      "rating_count": 0,
+      "random_order": 0.005214498690265357,
+      "children": [
+        {
+          "id": "CHILD-01JZ3GNBVZCJAW6E4QJC29JZEX",
+          "age_group": "🛴 School Age",
+          "count": 1
+        }
+      ],
+      "caregiver_preference": {
+        "id": "FAMILY_CAREGIVER_PREFERENCE-01JZ3GY224BE9G8WHES8DB3DAG",
+        "caregiver_types": [
+          "👩🏾‍🍼   Nanny"
+        ],
+        "caregiver_type_is_dealbreaker": false,
+        "personalities": [
+          "🫧 Bubbly",
+          "🦹‍♂️ Animated",
+          "🧘‍♀️ Chill"
+        ],
+        "personality_is_dealbreaker": false,
+        "experience": "6-10 years",
+        "experience_is_dealbreaker": false,
+        "must_speak_same_language": false,
+        "education_level": "📓 In College",
+        "show_education_level_on_profile": true,
+        "availability": "⏰ Full Time",
+        "availability_is_dealbreaker": false,
+        "arrangement_type": "⏰ Live Out",
+        "arrangement_type_is_dealbreaker": false,
+        "rejected_caregivers": [],
+        "liked_caregivers": [
+          "CAREGIVER_PROFILE-01JZ421PVQQ011S5VCRC1WZ3Q6",
+          "CAREGIVER_PROFILE-01JZ4JB2N7C7F2Y9T64DEQXD2D"
+        ],
+        "blocked_caregivers": [],
+        "job_commitment": {
+          "commitment": "📋 Long Term",
+          "start_date": "07/01/2025",
+          "end_date": "07/01/2025",
+          "id": "JOB_COMMITMENT_PREFERENCE-01JZ3GY23SHD7AGX4PJ3EGGFVF",
+          "is_dealbreaker": false
+        },
+        "requirements": {
+          "id": "REQUIREMENTS_PREFERENCE-01JZ3GY23H3CEB57M2S1TCCQ8S",
+          "requirements": [
+            "✈️ Can Travel",
+            "🚗 Able To Drive",
+            "⛑️ First Aid",
+            "👐 CPR",
+            "🏊 Can Swim"
+          ],
+          "other_requirement": "",
+          "requirements_are_dealbreaker": false,
+          "certifications": [],
+          "other_certification": "",
+          "certificates_are_dealbreaker": false
+        },
+        "responsibilities": {
+          "childcare_responsibilities": [
+            "🧺 Laundry",
+            "🚗 Driving",
+            "🛝 Play Dates",
+            "🥓 Cooking",
+            "🍕 Packing Lunch",
+            "🚆 Commuting",
+            "🍎 Tutoring",
+            "🥐 Grocery Shopping",
+            "🧸 Room Organization"
+          ],
+          "other_childcare_responsibilities": "",
+          "household_responsibilities": [],
+          "other_household_responsibilities": "",
+          "id": "RESPONSIBILITY_PREFERENCES-01JZ3GY26A28AVDQHWHG388GC4"
+        },
+        "age_preference": {
+          "id": "AGE_PREFERENCE-01JZ3GY23ANJP3P8CYTCTKS9Z1",
+          "age_group": "26 - 30 years old",
+          "is_dealbeaker": false
+        },
+        "gender_preference": {
+          "id": "GENDER_PREFERENCE-01JZ3GY22Q9MGG642V843EHMH5",
+          "genders": [
+            "Female"
+          ],
+          "other": "",
+          "dealbreaker": false
+        },
+        "service_days": [
+          {
+            "day": "Sat",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY241B08MG3ZC378F859X"
+          },
+          {
+            "day": "Mon",
+            "begin": "09:33:00",
+            "end": "05:33:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY2409AZEAE19JCRJ1X0G"
+          },
+          {
+            "day": "Tue",
+            "begin": "09:34:00",
+            "end": "10:34:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY2409CVV7SR76SM3JWQB"
+          },
+          {
+            "day": "Wed",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY240D7VZ41G9BV9P7YQJ"
+          },
+          {
+            "day": "Thu",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY240Q6GN3V9G776QJ5FB"
+          },
+          {
+            "day": "Fri",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY241NQB305RKTWTFY488"
+          },
+          {
+            "day": "Sun",
+            "begin": "00:00:00",
+            "end": "00:00:00",
+            "id": "SERVICE_DAY_PREFERENCE-01JZ3GY241MGP25JF0VG29XQPK"
+          }
+        ]
+      },
+      "description": {
+        "id": "FAMILY_DESCRIPTION-01JZ3GNBTY4DMHM4K5409T55RQ",
+        "description": "👩🏻‍🤝‍👨🏾 Mom & Dad",
+        "other": null,
+        "show_on_profile": false
+      },
+      "household_info": {
+        "diets": [
+          "🥩 Halal"
+        ],
+        "other_diets": "",
+        "show_diet_on_profile": false,
+        "rules": [
+          "😊 Be Kind"
+        ],
+        "other_rules": "",
+        "show_rules_on_profile": false,
+        "religion": "🕌 Islam",
+        "other_religion": "",
+        "show_religion_on_profile": false,
+        "id": "HOUSEHOLD_INFO-01JZ3GNBVHNABB2WBHHP3ZBMRB"
+      },
+      "philosophies": {
+        "id": "FAMILY_PHILOSOPHIES-01JZ3GNBVSEB2Z9HV7546AAKV5",
+        "philosophies": [
+          "🌈 Gentle Parenting"
+        ],
+        "other": "",
+        "show_on_profile": false
+      },
+      "extra_info": {
+        "id": "FAMILY_EXTRA_INFO-01JZ3H29GDE1KA9N9A7S2AVPDE",
+        "more_information": null,
+        "benefits": {
+          "id": "FAMILY_PROVIDED_BENEFITS-01JZ3H29KNP9NRYYT26F0EBZDJ",
+          "benefits": [
+            "🌴 Paid Time Off",
+            "🤒 Sick Leave",
+            "🦷 Dental Insurance",
+            "👁️ Vision Insurance"
+          ],
+          "other": null,
+          "show_on_profile": false
+        },
+        "prompts": [
+          {
+            "category": "get_to_know",
+            "title": "Our idea of an amazing Saturday \nmorning is",
+            "answer": "Breakfast with the family ",
+            "id": "FAMILY_PROMPTS-01JZ3H29KV3AKNFBDHYFA1TD5Y"
+          },
+          {
+            "category": "get_to_know",
+            "title": "We enjoy",
+            "answer": "Shopping trips to target ",
+            "id": "FAMILY_PROMPTS-01JZ3H29KV3TH6YHPSR0PT5B14"
+          }
+        ],
+        "payment_info": {
+          "type": "Hourly",
+          "hourly_min": 33,
+          "hourly_max": 45,
+          "salary": null,
+          "method": "employee",
+          "show_method_on_profile": false,
+          "id": "FAMILY_PAYMENT_INFO-01JZ3H29K3V8Y78BDYFPRDCNPF"
+        }
+      },
+      "children_interests": {
+        "creative_interests": [
+          "🍰 Baking",
+          "🎨 Painting",
+          "🧶 Arts & Crafts",
+          "📚 Reading"
+        ],
+        "other_creative_interest": null,
+        "instrument_interests": [
+          "🎹 Piano"
+        ],
+        "other_instrument_interest": null,
+        "sport_interests": [
+          "⚽ Soccer"
+        ],
+        "other_sport_interest": null,
+        "stem_interests": [],
+        "other_stem_interest": null,
+        "id": "CHILDREN_INTERESTS-01JZ3GNBVAWMZH1Z07NV9G1S2Q"
+      },
+      "allergies": {
+        "id": "FAMILY_ALLERGIES-01JZ3GNBWKH9CF7DKAXDQPTJ74",
+        "food_allergies": [],
+        "other_food_allergies": null,
+        "environmental_allergies": [],
+        "other_environtal_allergies": null,
+        "other_allergies": [],
+        "other_other_allergies": null
+      },
+      "pictures": [
+        {
+          "created_at": "2025-07-01T17:48:18.913Z",
+          "updated_at": "2025-07-01T17:48:21.957Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ3HN6JWESXJ8G870Q61PMSC",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ3HN5PZCG5DSS70QVVD0DGY.jpg",
+          "key": "profile/01JZ3HN5PZCG5DSS70QVVD0DGY.jpg",
+          "blur_hash": "eAHB;^IOU^-OxrT*_J00$1IA4;H^D+9F%1_M9ZR#NGxr.9kXR%M{oI",
+          "type": "PROFILE_PICTURE"
+        },
+        {
+          "created_at": "2025-07-01T17:48:20.112Z",
+          "updated_at": "2025-07-01T17:48:21.957Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ3HN7RCHYTJ58JBQ9422A0X",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ3HN711VKP8FG8EA6TM3ZHF.jpg",
+          "key": "profile/01JZ3HN711VKP8FG8EA6TM3ZHF.jpg",
+          "blur_hash": "eKHf3St7MtIU9cD$xvtTs-?b~qfjxcRkM_?cxuadj[NFngj[oyRk%M",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-01T17:48:20.894Z",
+          "updated_at": "2025-07-01T17:48:21.957Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ3HN8GJC81N4FSGNBPMPN6D",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ3HN7VJKT445PYFJJH9EBQY.jpg",
+          "key": "profile/01JZ3HN7VJKT445PYFJJH9EBQY.jpg",
+          "blur_hash": "eMDmLFY5-?KU^+9.R5R~a,I;AL#QIoNgNG$kbrw@b^r?iuR*nfw[t7",
+          "type": "OTHER"
+        },
+        {
+          "created_at": "2025-07-01T17:48:21.924Z",
+          "updated_at": "2025-07-01T17:48:21.957Z",
+          "_v": 2,
+          "id": "IMAGE-01JZ3HN9H19AN1ZF1SPSFVZZ1P",
+          "path": "https://karama.nyc3.cdn.digitaloceanspaces.com/profile/01JZ3HN8VEE2C2Y6569B948HJB.jpg",
+          "key": "profile/01JZ3HN8VEE2C2Y6569B948HJB.jpg",
+          "blur_hash": "eKG*.y%2xt-oRlvd%3s8i_ah~pxb%0Rii_IUM{%LNGad?atRE1a|WB",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T17:23:42.287Z",
+    "updated_at": "2025-07-01T17:23:42.348Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3G84JC5FMBNHFXQ1DFQC6H",
+    "phone_number": "+15516894050",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T17:23:42.302Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T17:10:40.888Z",
+    "updated_at": "2025-07-01T17:10:40.902Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3FG9FMKFJ169PY8CD7G5DB",
+    "phone_number": "+16466446712",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T17:10:40.899Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T17:10:38.906Z",
+    "updated_at": "2025-07-01T17:10:38.959Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3FG7HQJQMP5QS49M1H53PJ",
+    "phone_number": "+19293309694",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": false,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T17:10:38.917Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  },
+  {
+    "created_at": "2025-07-01T16:52:21.200Z",
+    "updated_at": "2025-07-01T16:52:21.262Z",
+    "_v": 3,
+    "user_id": "USER-01JZ3EEQJC651NQJ5SR0DSCF3J",
+    "phone_number": "+13477568510",
+    "email": null,
+    "role": "NEW_USER",
+    "access_level": "USER",
+    "name": null,
+    "plan": "STANDARD",
+    "subscribed_to_promotions": true,
+    "activity_status": "ACTIVE",
+    "last_login": "2025-07-01T16:52:21.218Z",
+    "settings": null,
+    "family_profile": null,
+    "caregiver_profile": null
+  }
+]

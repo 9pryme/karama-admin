@@ -46,8 +46,8 @@ const clashDisplay = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Nyra Wallet Dashboard',
-  description: 'Admin dashboard for Nyra Wallet financial application',
+  title: 'Karama Care Dashboard',
+  description: 'Admin dashboard for Karama Care childcare platform',
 };
 
 export default function RootLayout({

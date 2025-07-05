@@ -30,6 +30,14 @@ import {
   Receipt,
   Circle,
   Search,
+  Heart,
+  Calendar,
+  UserPlus,
+  MessageSquare,
+  FileText,
+  Clock,
+  Baby,
+  Flag,
 } from 'lucide-react';
 import { useAuth } from '@/lib/context/AuthContext';
 
@@ -40,81 +48,50 @@ const navigation = [
     icon: LayoutDashboard,
   },
   {
-    name: 'Manage Users',
+    name: 'Users',
     href: '/dashboard/users',
-    icon: CircleUserRound,
-  },
-  {
-    name: 'Joint Accounts',
-    href: '/dashboard/joint-accounts',
     icon: Users2,
-  },
-  {
-    name: 'Transactions',
-    href: '/dashboard/transactions',
-    icon: ScrollText,
-  },
-  {
-    name: 'Manage Wallets',
-    href: '/dashboard/manage-wallets',
-    icon: CircleDollarSign,
-  },
-  {
-    name: 'Email & Notif',
-    href: '/dashboard/notifications',
-    icon: Mail,
-  },
-  {
-    name: 'Cards',
-    href: '/dashboard/cards',
-    icon: CreditCard,
     hasDropdown: true,
     subItems: [
       {
-        name: 'USD Virtual Cards',
-        href: '/dashboard/cards/usd-virtual',
-        icon: CreditCard,
+        name: 'All Users',
+        href: '/dashboard/users',
+        icon: Users2,
       },
       {
-        name: 'NGN Virtual Cards',
-        href: '/dashboard/cards/ngn-virtual',
-        icon: CreditCard,
+        name: 'Reported',
+        href: '/dashboard/reported-users',
+        icon: Flag,
+        disabled: true,
       },
       {
-        name: 'NGN Physical Cards',
-        href: '/dashboard/cards/ngn-physical',
-        icon: CreditCard,
+        name: 'Flagged',
+        href: '/dashboard/flagged-users',
+        icon: Flag,
+        disabled: true,
       },
-    ],
-  },
-];
-
-const moneyNavigation = [
-  {
-    name: 'Fund Wallet',
-    href: '/dashboard/fund-wallet',
-    icon: Wallet,
+    ]
   },
   {
-    name: 'Move Funds',
-    href: '/dashboard/move-funds',
-    icon: ArrowRightLeft,
+    name: 'Matches',
+    href: '/dashboard/matches',
+    icon: Heart,
   },
   {
-    name: 'Debit Wallet',
-    href: '/dashboard/debit-wallet',
-    icon: Receipt,
+    name: 'Messages',
+    href: '/dashboard/messages',
+    icon: MessageSquare,
   },
   {
-    name: 'Evacuate Funds',
-    href: '/dashboard/evacuate',
-    icon: Circle,
-  },
+    name: 'Notifications',
+    href: '/dashboard/notifications',
+    icon: Mail,
+  }
 ];
 
 const otherNavigation = [
   {
-    name: 'Config',
+    name: 'Platform Config',
     href: '/dashboard/config',
     icon: Wrench,
   },
@@ -129,12 +106,12 @@ const otherNavigation = [
     icon: Shield,
   },
   {
-    name: 'Manage Providers',
+    name: 'Care Providers',
     href: '/dashboard/providers',
     icon: Users,
   },
   {
-    name: 'Help',
+    name: 'Help & Support',
     href: '/dashboard/help',
     icon: HelpCircle,
   },
@@ -175,7 +152,7 @@ interface SidebarProps {
 
 export default function Sidebar({ className }: SidebarProps) {
   const { isCollapsed, toggleSidebar } = useSidebar();
-  const [openDropdowns, setOpenDropdowns] = useState<string[]>(['Cards']); // Cards dropdown open by default
+  const [openDropdowns, setOpenDropdowns] = useState<string[]>(['Profiles']); // Profiles dropdown open by default
   const pathname = usePathname();
   const { logout, user } = useAuth();
 
@@ -207,36 +184,52 @@ export default function Sidebar({ className }: SidebarProps) {
               {item.hasDropdown ? (
                 <>
                   {/* Parent Item with Dropdown */}
-                                      <button
-                      onClick={() => isCollapsed ? {} : toggleDropdown(item.name)}
-                      className={cn(
-                        'w-full flex items-center gap-2 px-2 py-2 rounded-md text-xs font-medium transition-all duration-200 group',
-                        isCollapsed ? 'justify-center' : 'justify-between',
-                        isActive 
-                          ? 'bg-primary/10 text-primary' 
-                          : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
+                  <button
+                    onClick={() => isCollapsed ? {} : toggleDropdown(item.name)}
+                    className={cn(
+                      'w-full flex items-center gap-2 px-2 py-2 rounded-md text-xs font-medium transition-all duration-200 group',
+                      isCollapsed ? 'justify-center' : 'justify-between',
+                      isActive 
+                        ? 'bg-primary/10 text-primary' 
+                        : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
+                    )}
+                    title={isCollapsed ? item.name : undefined}
+                  >
+                    <div className="flex items-center gap-2">
+                      <item.icon className="h-4 w-4 flex-shrink-0" />
+                      {!isCollapsed && (
+                        <span className="truncate text-xs">{item.name}</span>
                       )}
-                      title={isCollapsed ? item.name : undefined}
-                    >
-                      <div className="flex items-center gap-2">
-                        <item.icon className="h-4 w-4 flex-shrink-0" />
-                        {!isCollapsed && (
-                          <span className="truncate text-xs">{item.name}</span>
-                        )}
-                      </div>
-                      {!isCollapsed && item.hasDropdown && (
-                        <ChevronDown className={cn(
-                          "h-3 w-3 transition-transform duration-200",
-                          !isDropdownOpen(item.name) && "rotate-180"
-                        )} />
-                      )}
-                    </button>
+                    </div>
+                    {!isCollapsed && item.hasDropdown && (
+                      <ChevronDown className={cn(
+                        "h-3 w-3 transition-transform duration-200",
+                        !isDropdownOpen(item.name) && "rotate-180"
+                      )} />
+                    )}
+                  </button>
                   
                   {/* Dropdown Items */}
                   {!isCollapsed && isDropdownOpen(item.name) && item.subItems && (
                     <div className="ml-6 mt-1 mb-1 space-y-1 border-l border-border pl-2">
                       {item.subItems.map((subItem: any) => {
                         const isSubActive = pathname === subItem.href;
+                        const isDisabled = subItem.disabled;
+                        
+                        if (isDisabled) {
+                          return (
+                            <div key={subItem.name} className={cn(
+                              'flex items-center gap-2 px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-200 cursor-not-allowed opacity-50',
+                              isSubActive 
+                                ? 'bg-primary/10 text-primary' 
+                                : 'text-muted-foreground'
+                            )}>
+                              <subItem.icon className="h-3 w-3 flex-shrink-0" />
+                              <span className="truncate text-xs">{subItem.name}</span>
+                            </div>
+                          );
+                        }
+                        
                         return (
                           <Link key={subItem.name} href={subItem.href}>
                             <div className={cn(
@@ -256,13 +249,13 @@ export default function Sidebar({ className }: SidebarProps) {
                 </>
               ) : (
                 /* Regular Menu Item */
-                <Link href={item.href}>
+                sectionTitle === 'Others' ? (
                   <div className={cn(
-                    'flex items-center gap-2 px-2 py-2 rounded-md text-xs font-medium transition-all duration-200 cursor-pointer',
+                    'flex items-center gap-2 px-2 py-2 rounded-md text-xs font-medium transition-all duration-200 cursor-not-allowed opacity-50',
                     isCollapsed ? 'justify-center' : '',
                     isActive 
                       ? 'bg-primary/10 text-primary' 
-                      : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
+                      : 'text-muted-foreground'
                   )}
                   title={isCollapsed ? item.name : undefined}
                   >
@@ -271,7 +264,24 @@ export default function Sidebar({ className }: SidebarProps) {
                       <span className="truncate text-xs">{item.name}</span>
                     )}
                   </div>
-                </Link>
+                ) : (
+                  <Link href={item.href}>
+                    <div className={cn(
+                      'flex items-center gap-2 px-2 py-2 rounded-md text-xs font-medium transition-all duration-200 cursor-pointer',
+                      isCollapsed ? 'justify-center' : '',
+                      isActive 
+                        ? 'bg-primary/10 text-primary' 
+                        : 'text-muted-foreground hover:bg-primary/5 hover:text-foreground'
+                    )}
+                    title={isCollapsed ? item.name : undefined}
+                    >
+                      <item.icon className="h-4 w-4 flex-shrink-0" />
+                      {!isCollapsed && (
+                        <span className="truncate text-xs">{item.name}</span>
+                      )}
+                    </div>
+                  </Link>
+                )
               )}
             </div>
           );
@@ -293,7 +303,7 @@ export default function Sidebar({ className }: SidebarProps) {
             "font-clash font-bold text-foreground transition-all duration-300",
             isCollapsed ? "text-sm" : "text-lg"
     )}>
-            {isCollapsed ? "N" : "Nyra"}
+            {isCollapsed ? "K" : "Karama"}
           </span>
         </div>
         {!isCollapsed && (
@@ -336,7 +346,6 @@ export default function Sidebar({ className }: SidebarProps) {
       <ScrollArea className="flex-1 px-2 py-2">
         <div className="space-y-4">
           {renderNavSection(navigation, 'Menu')}
-          {renderNavSection(moneyNavigation, 'Money')}
           {renderNavSection(otherNavigation, 'Others')}
         </div>
       </ScrollArea>
@@ -353,7 +362,7 @@ export default function Sidebar({ className }: SidebarProps) {
           {!isCollapsed && (
             <div className="flex-1 min-w-0">
               <p className="text-xs font-medium text-foreground truncate">
-                {user?.role ? user.role.charAt(0).toUpperCase() + user.role.slice(1) : 'Admin'}
+                Admin
               </p>
               <p className="text-[10px] text-muted-foreground truncate">{user?.email}</p>
           </div>

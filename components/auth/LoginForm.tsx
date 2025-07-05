@@ -19,7 +19,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Loader2, Eye, EyeOff } from "lucide-react";
 
 const formSchema = z.object({
-  field: z.string().min(1, "Email or username is required"),
+  email: z.string().min(1, "Email is required").email("Please enter a valid email"),
   password: z.string().min(1, "Password is required"),
 });
 
@@ -36,7 +36,7 @@ export default function LoginForm() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      field: "",
+      email: "",
       password: "",
     },
   });
@@ -44,7 +44,7 @@ export default function LoginForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       setIsLoading(true);
-      await login(values.field, values.password);
+      await login(values.email, values.password);
     } catch (error) {
       // Error is handled by the auth context
     } finally {
@@ -67,13 +67,14 @@ export default function LoginForm() {
 
         <FormField
           control={form.control}
-          name="field"
+          name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email or Username</FormLabel>
+              <FormLabel>Email</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="Enter your email or username"
+                  type="email"
+                  placeholder="Enter your email"
                   {...field}
                   disabled={isLoading || authLoading}
                 />

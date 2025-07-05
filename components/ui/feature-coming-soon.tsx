@@ -1,8 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { Hourglass, Clock } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { ArrowLeft, Clock, Wrench } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 interface FeatureComingSoonProps {
   title?: string;
@@ -10,77 +9,52 @@ interface FeatureComingSoonProps {
   showBackButton?: boolean;
 }
 
-export default function FeatureComingSoon({
-  title = "Feature Coming Soon",
-  description = "We're working hard to bring you this feature. Please check back later.",
-  showBackButton = true,
+export default function FeatureComingSoon({ 
+  title = "Feature Coming Soon", 
+  description = "This feature is currently under development and will be available soon.",
+  showBackButton = true 
 }: FeatureComingSoonProps) {
+  const router = useRouter();
+
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="flex flex-col items-center justify-center min-h-[60vh] p-6"
-    >
-      <div className="flex flex-col items-center max-w-md text-center space-y-6">
-        <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-          className="relative"
-        >
-          <div className="bg-primary/10 p-4 rounded-full">
-            <Clock className="h-12 w-12 text-primary" />
+    <div className="min-h-[60vh] flex items-center justify-center p-6">
+      <Card className="w-full max-w-md text-center">
+        <CardContent className="pt-8 pb-8">
+          <div className="flex justify-center mb-4">
+            <div className="relative">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                <Wrench className="w-8 h-8 text-primary" />
+              </div>
+              <div className="absolute -top-1 -right-1 w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center">
+                <Clock className="w-3 h-3 text-white" />
+              </div>
+            </div>
           </div>
-          <motion.div
-            animate={{ 
-              opacity: [0.5, 1, 0.5],
-              scale: [0.95, 1.05, 0.95],
-              rotate: [0, 5, 0, -5, 0]
-            }}
-            transition={{ 
-              repeat: Infinity, 
-              duration: 4,
-              ease: "easeInOut" 
-            }}
-            className="absolute -right-2 -top-2 bg-primary/15 p-2 rounded-full"
-          >
-            <Hourglass className="h-5 w-5 text-primary" />
-          </motion.div>
-        </motion.div>
-
-        <motion.h1
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-          className="text-3xl font-bold tracking-tight"
-        >
-          {title}
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-muted-foreground"
-        >
-          {description}
-        </motion.p>
-
-        {showBackButton && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
-            <Link href="/dashboard">
-              <Button variant="outline">
-                Return to Dashboard
-              </Button>
-            </Link>
-          </motion.div>
-        )}
-      </div>
-    </motion.div>
+          
+          <h1 className="text-2xl font-bold mb-2">{title}</h1>
+          <p className="text-muted-foreground mb-6">{description}</p>
+          
+          <div className="space-y-2">
+            <p className="text-sm text-muted-foreground">
+              We're working hard to bring you this feature.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Check back soon for updates!
+            </p>
+          </div>
+          
+          {showBackButton && (
+            <Button 
+              onClick={() => router.back()} 
+              variant="outline" 
+              className="mt-6"
+            >
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Go Back
+            </Button>
+          )}
+        </CardContent>
+      </Card>
+    </div>
   );
 } 

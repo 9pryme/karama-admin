@@ -21,7 +21,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background flex">
       {/* Desktop Sidebar */}
-      <div className="hidden lg:block">
+      <div className="hidden lg:block fixed h-full z-30">
         <Sidebar />
       </div>
 
@@ -31,6 +31,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
           <div 
             className="fixed inset-0 bg-black/50 backdrop-blur-sm" 
             onClick={() => setIsMobileMenuOpen(false)}
+            aria-hidden="true"
           />
           <div className="relative w-52 max-w-xs h-full">
             <Sidebar className="relative" />
@@ -40,16 +41,15 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
 
       {/* Main content area */}
       <div className={cn(
-        "flex-1 flex flex-col transition-all duration-300",
-        "lg:ml-0", // Remove margin on large screens since sidebar is positioned fixed
+        "flex-1 flex flex-col min-h-screen transition-all duration-300",
         isCollapsed ? "lg:pl-14" : "lg:pl-52" // Add padding based on sidebar state
       )}>
         <TopBar 
           onMobileMenuClick={() => setIsMobileMenuOpen(true)}
-          className="sticky top-0 z-30"
+          className="sticky top-0 z-30 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
         />
-        <main className="flex-1 p-4 lg:p-6 overflow-auto min-w-0">
-          <div className="max-w-full">
+        <main className="flex-1 p-4 lg:p-6 overflow-x-hidden">
+          <div className="mx-auto max-w-7xl w-full">
             {children}
           </div>
         </main>

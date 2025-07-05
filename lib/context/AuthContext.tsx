@@ -8,7 +8,7 @@ interface AuthContextType {
   user: User | null;
   loading: boolean;
   error: string | null;
-  login: (field: string, password: string) => Promise<void>;
+  login: (email: string, password: string) => Promise<void>;
   logout: () => void;
   isAuthenticated: boolean;
 }
@@ -32,18 +32,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setLoading(false);
   }, []);
 
-  const login = async (field: string, password: string) => {
+  const login = async (email: string, password: string) => {
     try {
       setLoading(true);
       setError(null);
-      const response = await authService.login({ field, password });
+      const response = await authService.login({ email, password });
       
-      // Store auth data
-      localStorage.setItem('token', response.token);
-      localStorage.setItem('user', JSON.stringify(response.user));
-      
-      setUser(response.user);
-      router.push('/dashboard');
+      // Check if login was successful
+      if (response.success && response.data.token) {
+        // Store auth data is handled in authService.login
+        const userData = { email };
+        setUser(userData);
+        router.push('/dashboard');
+      } else {
+        throw new Error(response.error || 'Login failed');
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred during login');
       throw err;

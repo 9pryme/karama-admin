@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Home, Search, AlertTriangle } from "lucide-react";
+import Image from "next/image";
 
 export default function NotFound() {
   return (
@@ -60,11 +61,7 @@ export default function NotFound() {
             {/* Additional Info */}
             <div className="pt-8 border-t border-border/50">
               <p className="text-sm text-muted-foreground">
-                If you believe this is an error, please{" "}
-                <Link href="/dashboard/help" className="text-primary hover:underline font-medium">
-                  contact support
-                </Link>
-                {" "}or go back to the previous page.
+                If you believe this is an error, please go back to the previous page or contact support.
               </p>
             </div>
 
@@ -80,24 +77,22 @@ export default function NotFound() {
           <Link href="/dashboard/users" className="hover:text-primary transition-colors">
             Users
           </Link>
-          <Link href="/dashboard/transactions" className="hover:text-primary transition-colors">
-            Transactions
-          </Link>
-          <Link href="/dashboard/help" className="hover:text-primary transition-colors">
-            Help Center
-          </Link>
         </div>
 
-        {/* Nyra Branding */}
+        {/* Karama Branding */}
         <div className="pt-8">
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">N</span>
-            </div>
-            <span className="font-clash-display text-lg font-semibold">Nyra Dashboard</span>
+            <Image
+              src="/logo.png"
+              alt="Karama Care"
+              width={32}
+              height={32}
+              className="rounded"
+            />
+            <span className="font-clash-display text-lg font-semibold">Karama Care</span>
           </div>
           <p className="text-xs text-muted-foreground mt-2">
-            © 2025 Nyra. All rights reserved.
+            © 2025 Karama Care. All rights reserved.
           </p>
         </div>
 

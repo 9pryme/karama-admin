@@ -40,17 +40,16 @@ interface Notification {
   sentTo: string;
 }
 
-interface User {
-  email: string;
+interface NotificationUser {
+  email: string | null;
   username?: string;
   user_id: string;
-  firstname: string;
-  lastname: string;
+  name: string | null;
   phone_number: string;
   role: string;
-  active_status: string;
+  activity_status: string;
   created_at: string;
-  updated_at: string;
+  last_login: string;
 }
 
 export default function PushNotifications() {
@@ -58,10 +57,10 @@ export default function PushNotifications() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [recipientType, setRecipientType] = useState("all");
-  const [selectedUser, setSelectedUser] = useState<User | null>(null);
-  const [allUsers, setAllUsers] = useState<User[]>([]);
-  const [filteredUsers, setFilteredUsers] = useState<User[]>([]);
-  const [displayedUsers, setDisplayedUsers] = useState<User[]>([]);
+  const [selectedUser, setSelectedUser] = useState<NotificationUser | null>(null);
+  const [allUsers, setAllUsers] = useState<NotificationUser[]>([]);
+  const [filteredUsers, setFilteredUsers] = useState<NotificationUser[]>([]);
+  const [displayedUsers, setDisplayedUsers] = useState<NotificationUser[]>([]);
   const [loading, setLoading] = useState(false);
   const [isLoadingUsers, setIsLoadingUsers] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -183,7 +182,7 @@ export default function PushNotifications() {
   }, [getApiConfig]);
 
   // Use React Query to fetch users (always fetched for caching, but only used when specific is selected)
-  const { data: allUsersData = [], isLoading: isLoadingUsersQuery, error: usersError } = useUsers();
+  const { data: allUsersData = { families: [], caregivers: [] }, isLoading: isLoadingUsersQuery, error: usersError } = useUsers();
 
   // Update local state when users data changes
   useEffect(() => {
@@ -191,10 +190,16 @@ export default function PushNotifications() {
     
     setIsLoadingUsers(isLoadingUsersQuery);
     
-    if (allUsersData.length > 0) {
+    // Combine families and caregivers into a single array
+    const allUsersArray = [
+      ...(allUsersData.families || []),
+      ...(allUsersData.caregivers || [])
+    ];
+    
+    if (allUsersArray.length > 0) {
       // Sort users alphabetically by name
-      const sortedUsers = [...allUsersData].sort((a, b) => 
-        `${a.firstname} ${a.lastname}`.localeCompare(`${b.firstname} ${b.lastname}`)
+      const sortedUsers = [...allUsersArray].sort((a, b) => 
+        `${a.name}`.localeCompare(`${b.name}`)
       );
       
       setAllUsers(sortedUsers);
@@ -231,9 +236,8 @@ export default function PushNotifications() {
 
     const query = searchQuery.toLowerCase().trim();
     const filtered = allUsers.filter(user => 
-      user.email?.toLowerCase().includes(query) || 
-      user.firstname?.toLowerCase().includes(query) || 
-      user.lastname?.toLowerCase().includes(query) ||
+      (user.email && user.email.toLowerCase().includes(query)) || 
+      user.name?.toLowerCase().includes(query) ||
       user.phone_number?.includes(query) ||
       (user.username && user.username.toLowerCase().includes(query))
     );
@@ -265,13 +269,13 @@ export default function PushNotifications() {
     }
   }, [currentPage, filteredUsers, displayedUsers.length, itemsPerPage]);
 
-  const selectUser = useCallback((user: User) => {
+  const selectUser = useCallback((user: NotificationUser) => {
     setSelectedUser(user);
     setOpenCombobox(false);
     
     toast({
       title: "User Selected",
-      description: `${user.firstname} ${user.lastname} (${user.email}) selected for notification.`,
+      description: `${user.name || user.phone_number} (${user.email || 'No email'}) selected for notification.`,
       duration: 2000,
     });
     
@@ -327,7 +331,7 @@ export default function PushNotifications() {
         response = await axios.post(
           `${apiUrl}/notifications/admin/user/send-push`,
           {
-            email: selectedUser.email,
+            email: selectedUser.email || selectedUser.phone_number,
             title,
             body
           },
@@ -348,7 +352,7 @@ export default function PushNotifications() {
           title: "Notification Sent",
           description: recipientType === "all" 
             ? "Push notification sent to all users." 
-            : `Push notification sent to ${selectedUser?.firstname} ${selectedUser?.lastname}.`,
+            : `Push notification sent to ${selectedUser?.name || selectedUser?.phone_number}.`,
         });
 
         // Add the new notification to the history list
@@ -359,7 +363,7 @@ export default function PushNotifications() {
           type: recipientType,
           sentTo: recipientType === "all" 
             ? "All Users" 
-            : `${selectedUser?.firstname} ${selectedUser?.lastname}`
+            : `${selectedUser?.name || selectedUser?.phone_number}`
         };
         
         setNotifications(prev => [newNotification, ...prev]);
@@ -525,7 +529,7 @@ export default function PushNotifications() {
                     <div className="flex items-center gap-2">
                       <User className="h-5 w-5 text-primary" />
                       <div>
-                        <p className="font-medium">{selectedUser.firstname} {selectedUser.lastname}</p>
+                        <p className="font-medium">{selectedUser.name || selectedUser.phone_number}</p>
                         <p className="text-xs text-muted-foreground">{selectedUser.email}</p>
                       </div>
                     </div>
@@ -585,7 +589,7 @@ export default function PushNotifications() {
                                       className="cursor-pointer"
                                     >
                                       <div className="flex flex-col">
-                                        <span className="font-medium">{user.firstname} {user.lastname}</span>
+                                        <span className="font-medium">{user.name || user.phone_number}</span>
                                         <span className="text-xs text-muted-foreground">{user.email}</span>
                                       </div>
                                     </CommandItem>

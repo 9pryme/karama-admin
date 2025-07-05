@@ -16,12 +16,33 @@ export const userKeys = {
 };
 
 // Get all users
-export function useUsers() {
+export function useUsers(): {
+  data: { families: User[]; caregivers: User[]; newUsers: User[] } | undefined;
+  isLoading: boolean;
+  error: any;
+  isError: boolean;
+} {
   return useQuery({
     queryKey: userKeys.lists(),
-    queryFn: () => userService.getAllUsers(),
+    queryFn: async () => {
+      const result = await userService.getAllUsers();
+      return result;
+    },
     staleTime: 5 * 60 * 1000, // 5 minutes
     gcTime: 10 * 60 * 1000, // 10 minutes
+    retry: 3,
+    retryDelay: (attemptIndex) => Math.min(1000 * 2 ** attemptIndex, 30000),
+  });
+}
+
+// Get user by ID
+export function useUserById(userId: string) {
+  return useQuery({
+    queryKey: userKeys.detail(userId),
+    queryFn: () => userService.getUserById(userId),
+    staleTime: 5 * 60 * 1000, // 5 minutes
+    gcTime: 10 * 60 * 1000, // 10 minutes
+    enabled: !!userId, // Only run when userId is provided
     retry: 3,
     retryDelay: (attemptIndex) => Math.min(1000 * 2 ** attemptIndex, 30000),
   });
@@ -262,13 +283,19 @@ export function useUserMetrics() {
   const { data: users, isLoading, error } = useUsers();
 
   const metrics = users ? {
-    totalUsers: users.length,
-    activeUsers: users.filter(user => user.active_status === "ACTIVE").length,
-    inactiveUsers: users.filter(user => user.active_status !== "ACTIVE").length,
+    totalUsers: users.families.length + users.caregivers.length + users.newUsers.length,
+    activeUsers: [...users.families, ...users.caregivers, ...users.newUsers].filter(user => user.activity_status === "ACTIVE").length,
+    inactiveUsers: [...users.families, ...users.caregivers, ...users.newUsers].filter(user => user.activity_status !== "ACTIVE").length,
+    familiesCount: users.families.length,
+    caregiversCount: users.caregivers.length,
+    newUsersCount: users.newUsers.length,
   } : {
     totalUsers: 0,
     activeUsers: 0,
     inactiveUsers: 0,
+    familiesCount: 0,
+    caregiversCount: 0,
+    newUsersCount: 0,
   };
 
   return {
@@ -286,4 +313,32 @@ export function useClearUserCaches() {
     queryClient.invalidateQueries({ queryKey: userKeys.all });
     queryClient.invalidateQueries({ queryKey: ['wallets'] });
   };
+}
+
+// Delete user mutation
+export function useDeleteUser() {
+  const queryClient = useQueryClient();
+  const { toast } = useToast();
+
+  return useMutation({
+    mutationFn: (phoneNumber: string) => userService.deleteUser(phoneNumber),
+    onSuccess: () => {
+      // Invalidate and refetch users list
+      queryClient.invalidateQueries({ queryKey: userKeys.lists() });
+      
+      toast({
+        title: "Success",
+        description: "User deleted successfully",
+      });
+    },
+    onError: (error) => {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to delete user",
+        variant: "destructive",
+      });
+    },
+    retry: 2,
+    retryDelay: (attemptIndex) => Math.min(1000 * 2 ** attemptIndex, 10000),
+  });
 } 
